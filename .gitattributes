@@ -1,1 +1,2 @@
 Projects/RobustFusion_page/video/supp-1802.mp4 filter=lfs diff=lfs merge=lfs -text
+Projects/UnstructedFusion_page/video/UnstructuredFusion/UnstructureFusion_Video_after_compression.mp4 filter=lfs diff=lfs merge=lfs -text
