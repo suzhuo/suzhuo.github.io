@@ -28,10 +28,12 @@
 <a href="./"><img src="./Files/zhousu1.gif" alt="" height="200px" /></a>&nbsp;</td>
 <td align="left"><p><a href="./"></a><br />
 <i> 
-<!--  I am working in GY-Lab, Tencent, as a senior researcher / engineer.  -->
- I received my Master degree from Department of Automation, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, supervised by <a href="http://media.au.tsinghua.edu.cn/english/team/qhdai.html">Prof. Qionghai Dai</a> and
-    <a href="http://luvision.net/">Prof. Lu Fang</a>, and meanwhile, I worked closely with <a href="https://liuyebin.com/">Prof. Yebin Liu</a> and <a href="https://www.xu-lan.com/index.html">Lan Xu</a>. My research focuses on computer vision
-    and graphics, especially human performance capture, 3D reconstruction and so on.
+I am a senior researcher/engineer at PICO, Bytedance. 
+Previously, I served as a senior researcher at Tencent.
+Before that, I earned my Master's degree from Department of Automation, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, supervised by <a href="http://media.au.tsinghua.edu.cn/english/team/qhdai.html">Prof. Qionghai Dai</a> and
+<a href="http://luvision.net/">Prof. Lu Fang</a>, and meanwhile, I worked closely with <a href="https://liuyebin.com/">Prof. Yebin Liu</a> and <a href="https://www.xu-lan.com/index.html">Lan Xu</a>.
+My research primarily centers around computer vision and graphics, with a particular focus on human performance capture, motion capture, 3D reconstruction, neural rendering and related areas.
+
 </a></i>
 <br />
 <br />
@@ -43,8 +45,9 @@ Email: su-z18@tsinghua.org.cn / suzhuo13@gmail.com
  <A HREF="#Interests">Interests</A> | 
  <A HREF="#Research">Research</A> | 
  <A HREF="#Awards">Awards</A>|
- <A HREF="#Skills">Skills</A>
+ <A HREF="#Skills">Skills</A> |
  <!--<a href="./Files/cv_zhuosu.pdf">CV</a>-->
+ <A HREF=" https://scholar.google.com/citations?user=iaqDkqMAAAAJ&hl">Google Scholar</A>
 <br />
 <br />
  
@@ -73,9 +76,9 @@ Email: su-z18@tsinghua.org.cn / suzhuo13@gmail.com
 <A NAME="Interests"><h2>Interests</h2></A>
     &nbsp;&nbsp;&nbsp;&nbsp; My research interests include computer vision and comptuter graphics. Currently, I focus on the following topics:
 <ul>
-<li>Human Performance Capture</li>
+<li>Human Performance/Motion Capture</li>
+<li>Photorealistic 3D Modeling/Rendering</li>
 <Li>Reconstruction of Dynamic Scenes</Li>
-<li>Photorealistic 3D Modeling</li>
 </ul>
 <br />
 
@@ -85,6 +88,31 @@ Email: su-z18@tsinghua.org.cn / suzhuo13@gmail.com
 <A NAME="Research"><h2>Research</h2></A>
 <font size="3"> 
 <ul>
+
+
+
+
+    <table class="imgtable"><tr><td>
+        <a href="./"><img src="./Files/AvatarJLM.png" alt="" height="108px" /></a>&nbsp;</td>
+        <td align="left"><p><a href="./"></a>
+        <p style="text-indent: -1.6rem;margin-left: 0rem;">
+        <span> 
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream</b>
+            <br />
+            <a>Xiaozheng Zheng*</a>, <b>Zhuo Su*</b>, <a>Chao Wen</a>, <a>Zhou Xue</a>, <a>Xiaojie Jin</a> (*Equal Contribution)
+            <br />
+            <b><i>IEEE/CVF International Conference on Computer Vision (ICCV), 2023.</i></b>
+            <br /><br />
+             we propose a two-stage framework that can obtain accurate and smooth full-body motions with the three tracking signals of head and hands only, in which we first explicitly model the joint-level features and then utilize them as spatiotemporal transformer tokens to capture joint-level correlations. 
+            <br />
+            [<a href="https://arxiv.org/pdf/2308.08855.pdf">Paper</a>]
+            [<a href="https://github.com/zxz267/AvatarJLM/">Project page</a>]
+
+         </a></span>
+         </p>
+    </td></tr></table>  
+
+
 
  
    <table class="imgtable"><tr><td>
@@ -101,7 +129,7 @@ Email: su-z18@tsinghua.org.cn / suzhuo13@gmail.com
              We propose a neural approach for instant volumetric human-object tracking and rendering using a single RGBD camera. It bridges traditional non-rigid tracking with recent instant radiance field techniques via a multi-thread tracking-rendering mechanism. 
             <br />
             [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_Instant-NVR_Instant_Neural_Volumetric_Rendering_for_Human-Object_Interactions_From_Monocular_CVPR_2023_paper.pdf">Paper</a>]
-<!--             [<a href="./Projects/RobustFusion_plus_page/index.html">Project page</a>] -->
+            [<a href="https://nowheretrix.github.io/Instant-NVR/">Project page</a>]
 
          </a></span>
          </p>
@@ -116,9 +144,9 @@ Email: su-z18@tsinghua.org.cn / suzhuo13@gmail.com
         <span> 
         <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Variational Motion Prior for Video-based Motion Capture</b>
             <br />
-            <a>Xin Chen*</a>, <b>Zhuo Su*</b>, <a>Lingbo Yang*</a>, <a>Pei Cheng</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a>Gang Yu</a> (Equal Contribution)
+            <a>Xin Chen*</a>, <b>Zhuo Su*</b>, <a>Lingbo Yang*</a>, <a>Pei Cheng</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a>Gang Yu</a> (*Equal Contribution)
             <br />
-            <b><i>arXiv</i></b>
+            <b><i>arXiv, 2022</i></b>
             <br /><br />
             We propose a novel variational motion prior (VMP) learning approach for video-based motion capture. Specifically, VMP is implemented as a transformer-based variational autoencoder pretrained over large-scale 3D motion data, providing an expressive latent space for human motion at sequence level. 
             <br />
@@ -139,7 +167,7 @@ Email: su-z18@tsinghua.org.cn / suzhuo13@gmail.com
             <br />
             <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a>Dawei Zhong</a>, <a>Zhong Li</a>, <a>Fan Deng</a>, <a>Shuxue Quan</a>, <a href="http://luvision.net/">Lu Fang</a>
             <br />
-            <b><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022, Accepted.</i></b>
+            <b><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022.</i></b>
             <br /><br />
             <!-- We propose UnstructuredFusion, which allows realtime, high-quality, complete reconstruction of 4D textured models of human performance via only three commercial RGBD cameras. -->
             We propose a robust volumetric performance reconstruction system for human-object interaction scenarios using only a single RGBD sensor, which combines various data-driven visual and interaction cues to handle the complex interaction patterns and severe occlusions. 
@@ -166,8 +194,8 @@ Email: su-z18@tsinghua.org.cn / suzhuo13@gmail.com
         <br /><br />
         We propose a robust neural volumetric rendering method for human-object interaction scenarios using 6 RGBD cameras, which achieves layer-wise and photorealistic reconstruction results of human performance in novel views.
         <br />
-        <!--[<a href="./Projects/RobustFusion_plus_page/RobustFusionPlus.pdf">Paper</a>]
-        [<a href="./Projects/RobustFusion_plus_page/index.html">Project page</a>]-->
+        [<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf">Paper</a>]
+        [<a href="https://nowheretrix.github.io/neuralfusion/">Project page</a>]
     
     </a></span>
     </p>
