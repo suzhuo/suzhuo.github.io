@@ -28,12 +28,12 @@
 <a href="./"><img src="./Files/zhousu1.gif" alt="" height="200px" /></a>&nbsp;</td>
 <td align="left"><p><a href="./"></a><br />
 <i> 
-I am a senior researcher / engineer at Bytedance. 
-Previously, I served as a senior researcher at Tencent ("技术大咖" program).
+I am a senior researcher/engineer at Bytedance. 
+Previously, I served as a senior researcher at Tencent ( "技术大咖 " program).
 Before that, I earned my Master's degree from Department of Automation, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, supervised by <a href="http://media.au.tsinghua.edu.cn/english/team/qhdai.html">Prof. Qionghai Dai</a> and
 <a href="http://luvision.net/">Prof. Lu Fang</a>, and meanwhile, I worked closely with <a href="https://liuyebin.com/">Prof. Yebin Liu</a> and <a href="https://www.xu-lan.com/index.html">Lan Xu</a>.
-My work / research primarily centers around computer vision and graphics, with a particular focus on human performance / motion capture, 3D reconstruction, neural rendering and related areas. 
-Besides, I also serve as a reviewer for main CV / CG conferences / journals.
+My work/research primarily centers around computer vision and graphics, with a particular focus on human 3D generation, avatar creation, 4D reconstruction, neural rendering, motion capture and related areas. 
+Besides, I also serve as a reviewer for main CV/CG/AI conferences/journals.
 
 </a></i>
 <br />
@@ -88,11 +88,18 @@ Email: su-z18@tsinghua.org.cn | suzhuo13@gmail.com
 
 <A NAME="Research"><h2>Research</h2></A>
 <font size="3"> 
+
+<class="staffshortcut">
+ <A HREF="#Generation">3D Generation</A> | 
+ <A HREF="#Avatars"> Avatar Creation</A> | 
+ <A HREF="#Reconstruction">4D Reconstruction</A>|
+ <A HREF="#Rendering">Neural Rendering</A> |
+ <A HREF="#Motion Capture">Motion Capture</A> 
+<br />
 <ul>
 
 
-
-
+    <A NAME="Generation"></A><h3>1. 3D Generation</h3></A>
 
     <table class="imgtable"><tr><td>
         <a href="./"><img src="./Files/joint2human.png" alt="" height="140px" /></a>&nbsp;</td>
@@ -101,44 +108,44 @@ Email: su-z18@tsinghua.org.cn | suzhuo13@gmail.com
         <span> 
         <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joint2Human: High-quality 3D Human Generation via Compact Spherical Embedding of 3D Joints</b>
             <br />
-            <!-- <a>Yuheng Jiang</a>, <a>Zhehao Shen</a>, <a>Penghao Wang</a>, <b> Zhuo Su</b>, <a>Yu Hong</a>, <a>Yingliang Zhang</a>, <a>Jingyi Yu</a>, <a>Lan Xu</a>             -->
+            <a>Muxin Zhang</a>, <a>Qiao Feng</a>, <b>Zhuo Su</b>, <a>Chao Wen</a>, <a>Zhou Xue</a>, <a>Kun Li</a>
             <br />
-            <b><i>CVPR, 2024 (Accept)</i></b>
+            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</i></b>
             <br /><br />
              We introduce Joint2Human, a novel method that leverages 2D diffusion models to generate detailed 3D human geometry directly, ensuring both global structure and local details. 
             <br />
 
-            [<a xxx>Paper&Page: Comming soon</a>]
-            <!-- [<a href="https://nowheretrix.github.io/HiFi4G/">Project page</a>] -->
+            [<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Joint2Human_High-Quality_3D_Human_Generation_via_Compact_Spherical_Embedding_of_CVPR_2024_paper.pdf">Paper</a>]
+            [<a href="https://cic.tju.edu.cn/faculty/likun/projects/Joint2Human/index.html">Project page</a>]     
 
          </a></span>
          </p>
     </td></tr></table> 
-
-
 
 
     <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/hmdposer.png" alt="" height="157px" /></a>&nbsp;</td>
+        <a href="./"><img src="./Files/humansplat.jpg" alt="" height="190px" /></a>&nbsp;</td>
         <td align="left"><p><a href="./"></a>
         <p style="text-indent: -1.6rem;margin-left: 0rem;">
         <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HMD-Poser: On-Device Real-time Human Motion Tracking from Scalable Sparse Observations</b>
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors</b>
             <br />
-            <!-- <a>Yuheng Jiang</a>, <a>Zhehao Shen</a>, <a>Penghao Wang</a>, <b> Zhuo Su</b>, <a>Yu Hong</a>, <a>Yingliang Zhang</a>, <a>Jingyi Yu</a>, <a>Lan Xu</a>             -->
+            <a>Panwang Pan*</a>, <b>Zhuo Su*</b> (Project Lead), <a>Chenguo Lin*</a>, <a>Zhen Fan</a>, <a>Yongjie Zhang</a>, <a>Zeming Li</a>, <a>Tingting Shen</a>, <a>Yadong Mu</a>, <a>Yebin Liu</a> (*Equal Contribution)
             <br />
-            <b><i>CVPR, 2024 (Accept)</i></b>
+            <b><i>arXiv, 2024.</i></b>
             <br /><br />
-            We propose HMD-Poser, the first unified approach torecover full-body motions using scalable sparse observations from HMD and body-worn IMUs. In particular, it can support a variety of input scenarios, such as HMD,HMD+2IMUs, HMD+3IMUs, etc. 
+            We propose HumanSplat, a method that predicts the 3D Gaussian Splatting properties of a human from a single input image in a generalizable way. It utilizes a 2D multi-view diffusion model and a latent reconstruction transformer with human structure priors to effectively integrate geometric priors and semantic features.
             <br />
-            [<a xxx>Paper&Page: Comming soon</a>]
-            <!-- [<a href="https://arxiv.org/pdf/2312.03461.pdf">Paper</a>] -->
-            <!-- [<a href="https://nowheretrix.github.io/HiFi4G/">Project page</a>] -->
+
+            [<a href="https://arxiv.org/pdf/2406.12459">Paper</a>]
+            [<a href="https://humansplat.github.io/">Project page</a>]     
 
          </a></span>
          </p>
     </td></tr></table> 
 
+
+    <A NAME="Avatars"></A><h3>2. Avatar Creation</h3></A>
 
     <table class="imgtable"><tr><td>
         <a href="./"><img src="./Files/ohta.png" alt="" height="132px" /></a>&nbsp;</td>
@@ -147,105 +154,87 @@ Email: su-z18@tsinghua.org.cn | suzhuo13@gmail.com
         <span> 
         <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OHTA: One-shot Hand Avatar via Data-driven Implicit Priors</b>
             <br />
-            <!-- <a>Yuheng Jiang</a>, <a>Zhehao Shen</a>, <a>Penghao Wang</a>, <b> Zhuo Su</b>, <a>Yu Hong</a>, <a>Yingliang Zhang</a>, <a>Jingyi Yu</a>, <a>Lan Xu</a>             -->
-            <br />
-            <b><i>CVPR, 2024 (Accept)</i></b>
+            <a>Xiaozheng Zheng</a>, <a>Chao Wen</a>, <b>Zhuo Su</b>, <a>Zeran Xu</a>, <a>Zhaohu Li</a>, <a>Yang Zhao</a>, <a>Zhou Xue</a>
+            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</i></b>
             <br /><br />
              OHTA is a novel approach capable of creating implicit animatable hand avatars using just a single image. It facilitates 1) text-to-avatar conversion, 2) hand texture and geometry editing, and 3) interpolation and sampling within the latent space.
             <br />
-            [<a xxx>Paper&Page: Comming soon</a>]
-            <!-- [<a href="https://arxiv.org/pdf/2312.03461.pdf">Paper</a>] -->
-            <!-- [<a href="https://nowheretrix.github.io/HiFi4G/">Project page</a>] -->
+            [<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zheng_OHTA_One-shot_Hand_Avatar_via_Data-driven_Implicit_Priors_CVPR_2024_paper.pdf">Paper</a>]
+            [<a href="https://github.com/bytedance/OHTA">Project page</a>]  
 
          </a></span>
          </p>
     </td></tr></table> 
 
 
+
     <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/Hifi4G.png" alt="" height="108px" /></a>&nbsp;</td>
+        <a href="./"><img src="./Files/headgap.png" alt="" height="102px" /></a>&nbsp;</td>
         <td align="left"><p><a href="./"></a>
         <p style="text-indent: -1.6rem;margin-left: 0rem;">
         <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting</b>
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HeadGAP: Few-shot 3D Head Avatar via Generalizable GAussian Priors</b>
             <br />
-            <a>Yuheng Jiang</a>, <a>Zhehao Shen</a>, <a>Penghao Wang</a>, <b> Zhuo Su</b>, <a>Yu Hong</a>, <a>Yingliang Zhang</a>, <a>Jingyi Yu</a>, <a>Lan Xu</a>            
-            <br />
-            <b><i>CVPR, 2024 (Accept)</i></b>
+            <a>Xiaozheng Zheng</a>, <a>Chao Wen</a>, <b>Zhuo Su</b>, <a>Zeran Xu</a>, <a>Zhaohu Li</a>, <a>Yang Zhao</a>, <a>Zhou Xue</a>
+            <b><i>arXiv, 2024.</i></b>
             <br /><br />
-             we present an explicit and compact Gaussian-based approach for high-fidelity human performance rendering from dense footage, in which our core intuition is to marry the 3D Gaussian representation with non-rigid tracking. 
+            We propose a 3D head avatar creation method that generalizes from few-shot in-the-wild data. By using 3D head priors from a large-scale dataset and a Gaussian Splatting-based network, our approach achieves high-fidelity rendering and robust animation.
             <br />
-            [<a href="https://arxiv.org/pdf/2312.03461.pdf">Paper</a>]
-            [<a href="https://nowheretrix.github.io/HiFi4G/">Project page</a>]
+            [<a href="https://arxiv.org/pdf/2408.06019v1">Paper</a>]
+            [<a href="https://headgap.github.io/">Project page</a>]  
 
          </a></span>
          </p>
     </td></tr></table> 
 
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/AvatarJLM.png" alt="" height="108px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Realistic Full-Body Tracking from Sparse Observations via Joint-Level Modeling</b>
-            <br />
-            <a>Xiaozheng Zheng*</a>, <b>Zhuo Su*</b>, <a>Chao Wen</a>, <a>Zhou Xue</a>, <a>Xiaojie Jin</a> (*Equal Contribution)
-            <br />
-            <b><i>IEEE/CVF International Conference on Computer Vision (ICCV), 2023.</i></b>
-            <br /><br />
-             We propose a two-stage framework that can obtain accurate and smooth full-body motions with the three tracking signals of head and hands only, in which we first explicitly model the joint-level features and then utilize them as spatiotemporal transformer tokens to capture joint-level correlations. 
-            <br />
-            [<a href="https://arxiv.org/pdf/2308.08855.pdf">Paper</a>]
-            [<a href="https://github.com/zxz267/AvatarJLM/">Project page</a>]
+    <A NAME="Reconstruction"></A><h3>3. 4D Reconstruction</h3></A>
 
-         </a></span>
-         </p>
-    </td></tr></table>  
-
-
-
- 
-   <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/instant_nvr.png" alt="" height="134px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream</b>
-            <br />
-            <a>Yuheng Jiang</a>, <a>Kaixin Yao</a>, <b>Zhuo Su</b>, <a>Zhehao Shen</a>, <a>Haimin Luo</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>
-            <br />
-            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.</i></b>
-            <br /><br />
-             We propose a neural approach for instant volumetric human-object tracking and rendering using a single RGBD camera. It bridges traditional non-rigid tracking with recent instant radiance field techniques via a multi-thread tracking-rendering mechanism. 
-            <br />
-            [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_Instant-NVR_Instant_Neural_Volumetric_Rendering_for_Human-Object_Interactions_From_Monocular_CVPR_2023_paper.pdf">Paper</a>]
-            [<a href="https://nowheretrix.github.io/Instant-NVR/">Project page</a>]
-
-         </a></span>
-         </p>
-    </td></tr></table>    
- 
- 
 
     <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/stylemotion.png" alt="" height="134px" /></a>&nbsp;</td>
+        <a href="./"><img src="./Files/unfusion.jpg" alt="" height="150px" /></a>&nbsp;</td>
         <td align="left"><p><a href="./"></a>
         <p style="text-indent: -1.6rem;margin-left: 0rem;">
         <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Variational Motion Prior for Video-based Motion Capture</b>
+    
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UnstructuredFusion: Realtime 4D Geometry and Texture Reconstruction using Commercial RGBD Cameras</b>
             <br />
-            <a>Xin Chen*</a>, <b>Zhuo Su*</b>, <a>Lingbo Yang*</a>, <a>Pei Cheng</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a>Gang Yu</a> (*Equal Contribution)
+            <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <b>Zhuo Su</b>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5">Lei Han</a>, <a href="https://ytrock.com/">Tao Yu</a>, <a href="https://liuyebin.com/">Yebin Liu</a>, <a href="http://luvision.net/">Lu Fang</a>
             <br />
-            <b><i>arXiv, 2022</i></b>
+            <b><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019.</i></b>
             <br /><br />
-            We propose a novel variational motion prior (VMP) learning approach for video-based motion capture. Specifically, VMP is implemented as a transformer-based variational autoencoder pretrained over large-scale 3D motion data, providing an expressive latent space for human motion at sequence level. 
+            We propose UnstructuredFusion, which allows realtime, high-quality, complete reconstruction of 4D textured models of human performance via only three commercial RGBD cameras.
             <br />
-            [<a href="https://arxiv.org/pdf/2210.15134.pdf">Paper</a>]
-<!--             [<a href="./Projects/RobustFusion_plus_page/index.html">Project page</a>] -->
+            [<a href="./Files/Unfusion.pdf">Paper</a>]
+            [<a href="./Projects/UnstructedFusion_page/index.html">Project page</a>]
+    
+        </a></span>
+        </p>
+        </td></tr></table>
 
-         </a></span>
-         </p>
-    </td></tr></table>    
+
+
+    <table class="imgtable"><tr><td>
+    <a href="./"><img src="./Files/robustfusion.jpg" alt="" height="180px" /></a>&nbsp;</td>
+    <td align="left"><p><a href="./"></a>
+    <p style="text-indent: -1.6rem;margin-left: 0rem;">
+    <span> 
+
+        <b>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RobustFusion: Human Volumetric Capture with Data-driven Visual Cues using a RGBD Camera
+            <br />
+        </b>
+        <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a href="https://zhengzerong.github.io/">Zerong Zheng</a>, <a href="https://ytrock.com/">Tao Yu</a>, <a href="https://liuyebin.com/">Yebin Liu</a>, <a href="http://luvision.net/">
+        Lu Fang</a>
+        <br />
+        <b><i>European Conference on Computer Vision (ECCV), 2020, Spotlight.</i></b>
+        <br /><br />
+        We introduce a robust human volumetric capture approach combined with various data-driven visual cues using a Kinect, which outperforms existing state-of-the-art approaches significantly.
+        <br />
+        [<a href="./Files/Rofusion.pdf">Paper</a>]
+        [<a href="./Projects/RobustFusion_page/index.html">Project page</a>]
+    </a></span>
+    </p>
+    </td></tr></table>
 
     <table class="imgtable"><tr><td>
         <a href="./"><img src="./Files/robustfusionplus.jpg" alt="" height="193px" /></a>&nbsp;</td>
@@ -270,73 +259,158 @@ Email: su-z18@tsinghua.org.cn | suzhuo13@gmail.com
         </td></tr></table>
 
 
+    <A NAME="Rendering"></A><h3>4. Neural Rendering</h3></A>
 
-<table class="imgtable"><tr><td>
-    <a href="./"><img src="./Files/neuralrendering.jpg" alt="" height="138px" /></a>&nbsp;</td>
-    <td align="left"><p><a href="./"></a>
-    <p style="text-indent: -1.6rem;margin-left: 0rem;">
-    <span> 
-    <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeuralHOFusion: Neural Volumetric Rendering Under Human-Object Interactions</b>
-        <br />
-        <a>Yuheng Jiang</a>, <a>Suyi Jiang</a>, <a>Guoxing Sun</a>, <b>Zhuo Su</b>, <a>Kaiwen Guo</a>, <a>Minye Wu</a>, <a>Jingyi Yu</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>
-        <br />
-        <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022.</i></b>
-        <br /><br />
-        We propose a robust neural volumetric rendering method for human-object interaction scenarios using 6 RGBD cameras, which achieves layer-wise and photorealistic reconstruction results of human performance in novel views.
-        <br />
-        [<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf">Paper</a>]
-        [<a href="https://nowheretrix.github.io/neuralfusion/">Project page</a>]
-    
+
+    <table class="imgtable"><tr><td>
+        <a href="./"><img src="./Files/neuralrendering.jpg" alt="" height="138px" /></a>&nbsp;</td>
+        <td align="left"><p><a href="./"></a>
+        <p style="text-indent: -1.6rem;margin-left: 0rem;">
+        <span> 
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeuralHOFusion: Neural Volumetric Rendering Under Human-Object Interactions</b>
+            <br />
+            <a>Yuheng Jiang</a>, <a>Suyi Jiang</a>, <a>Guoxing Sun</a>, <b>Zhuo Su</b>, <a>Kaiwen Guo</a>, <a>Minye Wu</a>, <a>Jingyi Yu</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>
+            <br />
+            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022.</i></b>
+            <br /><br />
+            We propose a robust neural volumetric rendering method for human-object interaction scenarios using 6 RGBD cameras, which achieves layer-wise and photorealistic reconstruction results of human performance in novel views.
+            <br />
+            [<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf">Paper</a>]
+            [<a href="https://nowheretrix.github.io/neuralfusion/">Project page</a>]
+        
     </a></span>
     </p>
     </td></tr></table>
 
+    <table class="imgtable"><tr><td>
+        <a href="./"><img src="./Files/instant_nvr.png" alt="" height="134px" /></a>&nbsp;</td>
+        <td align="left"><p><a href="./"></a>
+        <p style="text-indent: -1.6rem;margin-left: 0rem;">
+        <span> 
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream</b>
+            <br />
+            <a>Yuheng Jiang</a>, <a>Kaixin Yao</a>, <b>Zhuo Su</b>, <a>Zhehao Shen</a>, <a>Haimin Luo</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>
+            <br />
+            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.</i></b>
+            <br /><br />
+             We propose a neural approach for instant volumetric human-object tracking and rendering using a single RGBD camera. It bridges traditional non-rigid tracking with recent instant radiance field techniques via a multi-thread tracking-rendering mechanism. 
+            <br />
+            [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_Instant-NVR_Instant_Neural_Volumetric_Rendering_for_Human-Object_Interactions_From_Monocular_CVPR_2023_paper.pdf">Paper</a>]
+            [<a href="https://nowheretrix.github.io/Instant-NVR/">Project page</a>]
+
+         </a></span>
+         </p>
+    </td></tr></table>    
+ 
+
+    <table class="imgtable"><tr><td>
+        <a href="./"><img src="./Files/Hifi4G.png" alt="" height="108px" /></a>&nbsp;</td>
+        <td align="left"><p><a href="./"></a>
+        <p style="text-indent: -1.6rem;margin-left: 0rem;">
+        <span> 
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting</b>
+            <br />
+            <a>Yuheng Jiang</a>, <a>Zhehao Shen</a>, <a>Penghao Wang</a>, <b> Zhuo Su</b>, <a>Yu Hong</a>, <a>Yingliang Zhang</a>, <a>Jingyi Yu</a>, <a>Lan Xu</a>            
+            <br />
+            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</i></b>
+            <br /><br />
+             we present an explicit and compact Gaussian-based approach for high-fidelity human performance rendering from dense footage, in which our core intuition is to marry the 3D Gaussian representation with non-rigid tracking. 
+            <br />
+            [<a href="https://arxiv.org/pdf/2312.03461.pdf">Paper</a>]
+            [<a href="https://nowheretrix.github.io/HiFi4G/">Project page</a>]
+
+         </a></span>
+         </p>
+    </td></tr></table> 
+    
+
+    <A NAME="Motion Capture"></A><h3>5. Motion Capture</h3></A>
+
+
+    <table class="imgtable"><tr><td>
+        <a href="./"><img src="./Files/stylemotion.png" alt="" height="134px" /></a>&nbsp;</td>
+        <td align="left"><p><a href="./"></a>
+        <p style="text-indent: -1.6rem;margin-left: 0rem;">
+        <span> 
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Variational Motion Prior for Video-based Motion Capture</b>
+            <br />
+            <a>Xin Chen*</a>, <b>Zhuo Su*</b>, <a>Lingbo Yang*</a>, <a>Pei Cheng</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a>Gang Yu</a> (*Equal Contribution)
+            <br />
+            <b><i>arXiv, 2022.</i></b>
+            <br /><br />
+            We propose a novel variational motion prior (VMP) learning approach for video-based motion capture. Specifically, VMP is implemented as a transformer-based variational autoencoder pretrained over large-scale 3D motion data, providing an expressive latent space for human motion at sequence level. 
+            <br />
+            [<a href="https://arxiv.org/pdf/2210.15134.pdf">Paper</a>]
+         </a></span>
+         </p>
+    </td></tr></table>
+
+
+    <table class="imgtable"><tr><td>
+        <a href="./"><img src="./Files/AvatarJLM.png" alt="" height="108px" /></a>&nbsp;</td>
+        <td align="left"><p><a href="./"></a>
+        <p style="text-indent: -1.6rem;margin-left: 0rem;">
+        <span> 
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Realistic Full-Body Tracking from Sparse Observations via Joint-Level Modeling</b>
+            <br />
+            <a>Xiaozheng Zheng*</a>, <b>Zhuo Su*</b>, <a>Chao Wen</a>, <a>Zhou Xue</a>, <a>Xiaojie Jin</a> (*Equal Contribution)
+            <br />
+            <b><i>IEEE/CVF International Conference on Computer Vision (ICCV), 2023.</i></b>
+            <br /><br />
+             We propose a two-stage framework that can obtain accurate and smooth full-body motions with the three tracking signals of head and hands only, in which we first explicitly model the joint-level features and then utilize them as spatiotemporal transformer tokens to capture joint-level correlations. 
+            <br />
+            [<a href="https://arxiv.org/pdf/2308.08855.pdf">Paper</a>]
+            [<a href="https://github.com/zxz267/AvatarJLM/">Project page</a>]
+
+         </a></span>
+         </p>
+    </td></tr></table>  
 
 
 
-<table class="imgtable"><tr><td>
-<a href="./"><img src="./Files/robustfusion.jpg" alt="" height="180px" /></a>&nbsp;</td>
-<td align="left"><p><a href="./"></a>
-<p style="text-indent: -1.6rem;margin-left: 0rem;">
-<span> 
+    <table class="imgtable"><tr><td>
+        <a href="./"><img src="./Files/hmdposer.png" alt="" height="157px" /></a>&nbsp;</td>
+        <td align="left"><p><a href="./"></a>
+        <p style="text-indent: -1.6rem;margin-left: 0rem;">
+        <span> 
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HMD-Poser: On-Device Real-time Human Motion Tracking from Scalable Sparse Observations</b>
+            <br />
+            <a>Peng Dai</a>, <a>Yang Zhang</a>, <a>Tao Liu</a>, <a>Zhen Fan</a>, <a>Tianyuan Du</a>, <b>Zhuo Su</b>, <a>Xiaozheng Zheng</a>, <a>Zeming Li</a>           
+            <br />
+            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</i></b>
+            <br /><br />
+            We propose HMD-Poser, the first unified approach torecover full-body motions using scalable sparse observations from HMD and body-worn IMUs. In particular, it can support a variety of input scenarios, such as HMD,HMD+2IMUs, HMD+3IMUs, etc. 
+            <br />
+            [<a xxx>Paper&Page: Comming soon</a>]
+            [<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Dai_HMD-Poser_On-Device_Real-time_Human_Motion_Tracking_from_Scalable_Sparse_Observations_CVPR_2024_paper.pdf">Paper</a>]
+            [<a href="https://pico-ai-team.github.io/hmd-poser">Project page</a>]
 
-    <b>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RobustFusion: Human Volumetric Capture with Data-driven Visual Cues using a RGBD Camera
-        <br />
-    </b>
-    <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a href="https://zhengzerong.github.io/">Zerong Zheng</a>, <a href="https://ytrock.com/">Tao Yu</a>, <a href="https://liuyebin.com/">Yebin Liu</a>, <a href="http://luvision.net/">
-    Lu Fang</a>
-    <br />
-    <b><i>European Conference on Computer Vision (ECCV), 2020, Spotlight.</i></b>
-    <br /><br />
-    We introduce a robust human volumetric capture approach combined with various data-driven visual cues using a Kinect, which outperforms existing state-of-the-art approaches significantly.
-    <br />
-    [<a href="./Files/Rofusion.pdf">Paper</a>]
-    [<a href="./Projects/RobustFusion_page/index.html">Project page</a>]
-</a></span>
-</p>
-</td></tr></table>
+         </a></span>
+         </p>
+    </td></tr></table> 
 
-<table class="imgtable"><tr><td>
-<a href="./"><img src="./Files/unfusion.jpg" alt="" height="150px" /></a>&nbsp;</td>
-<td align="left"><p><a href="./"></a>
-<p style="text-indent: -1.6rem;margin-left: 0rem;">
-<span> 
 
-<b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UnstructuredFusion: Realtime 4D Geometry and Texture Reconstruction using Commercial RGBD Cameras</b>
-    <br />
-    <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <b>Zhuo Su</b>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5">Lei Han</a>, <a href="https://ytrock.com/">Tao Yu</a>, <a href="https://liuyebin.com/">Yebin Liu</a>, <a href="http://luvision.net/">Lu Fang</a>
-    <br />
-    <b><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019.</i></b>
-    <br /><br />
-    We propose UnstructuredFusion, which allows realtime, high-quality, complete reconstruction of 4D textured models of human performance via only three commercial RGBD cameras.
-    <br />
-    [<a href="./Files/Unfusion.pdf">Paper</a>]
-    [<a href="./Projects/UnstructedFusion_page/index.html">Project page</a>]
 
-</a></span>
-</p>
-</td></tr></table>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+   
 
 
 
@@ -402,7 +476,7 @@ Email: su-z18@tsinghua.org.cn | suzhuo13@gmail.com
 <li>Excellence Award for National Undergraduate Innovation Program, Northeastern University, 2017</li>
 <li>City's Excellent Undergraduate, Shenyang City, 2017</li>
 <li>Mayor's Scholarship, Shenyang City, 2017</li>
-<li>Top Ten Excellent Undergraduate (10 / the whole university, "十佳本科生"), Northeastern University, 2017</li>
+<li>Top Ten Excellent Undergraduate (10 / the whole university, 十佳本科生), Northeastern University, 2017</li>
 <li>Honorable Mention of American Mathematical Contest in Modeling, COMAP, 2017</li>
 <li>Second Prize of National Undergraduate Mathematical Contest in Modeling, CSIAM, 2016</li>
 <li>First Prize of Provincial Undergraduate Mathematical Contest in Modeling, Liaoning Province, 2016</li>
