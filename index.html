@@ -1,5 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
 <head>
 <meta name="google-site-verification" content="DykGAn8-hiUCZwQR_LqQ1V-Rg8UOhvXmI32I8HTY81s" />
 <!--<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />-->
@@ -10,68 +12,141 @@
 
 <link rel="shortcut icon" href="./Files/favicon.ico">
 <title>Zhuo Su</title>
+
+
+<style>
+    .paper-list {
+        list-style-type: none; /* 去掉默认的点 */
+        padding: 0; /* 移除默认的内边距 */
+        margin: 0; /* 移除默认的外边距 */
+    }
+
+    .paper-item {
+        margin-bottom: 20px; /* 给每个论文条目增加一些间距 */
+    }
+    .staffshortcut {
+    display: flex;
+    justify-content: center;  /* 居中 */
+    align-items: center;
+    gap: 15px;  /* 增加选项间距 */
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    }
+
+    .staffshortcut a {
+        text-decoration: none;
+        color: #333;  /* 默认颜色 */
+        padding: 8px 12px;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+
+    .staffshortcut a::after {
+        content: "|";
+        color: #999;
+        margin-left: 15px; /* 间距 */
+    }
+
+    .staffshortcut a:last-child::after {
+        content: ""; /* 最后一个不加 | */
+    }
+
+    .staffshortcut a:hover {
+        color: #007bff;  /* 悬停变蓝 */
+        font-weight: 600;
+        transform: scale(1.1); /* 微放大 */
+    }
+    .staffshortcut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* 禁止换行 */
+    gap: 10px; /* 减少间距，避免挤压 */
+    padding: 10px 15px; /* 适当缩小 padding */
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #e3f2fd, #bbdefb); /* 渐变蓝 */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    white-space: nowrap; /* 防止文本换行 */
+    max-width: 100%; /* 确保不会超出父容器 */
+    overflow-x: auto; /* 如果超出宽度，允许横向滚动 */
+    }
+
+    a:hover {
+    background-color: #f1f1f1;
+    color: #007bff;
+    border-color: #0056b3;
+    }
+
+
+</style>
+
 </head>
  
 
-
 <body> 
-
-
-
 
 <a id="home" class="anchor"></a>
 <div id="container"> 
 <div class="container"> 
 
-<h1>Zhuo Su 苏 卓</h1></A>
-<table class="imgtable"><tr><td>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./"><img src="./Files/suzhuo.png" alt="" height="320px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td align="left"><p><a href="./"></a><br />
-<i> 
-I am a senior researcher at Bytedance. 
-Previously, I served as a senior researcher at Tencent (Recruitment Talents Program: "技术大咖 ").
-<!-- Before that, I earned my Master's degree from Department of Automation, -->
-Before that, I graduated from the Department of Automation, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, supervised by <a href="https://media.au.tsinghua.edu.cn/info/1009/1112.htm">Prof. Qionghai Dai</a> and
-<a href="http://luvision.net/">Prof. Lu Fang</a>, and meanwhile, I worked closely with <a href="https://liuyebin.com/">Prof. Yebin Liu</a> and <a href="https://www.xu-lan.com/index.html">Lan Xu</a>.
-<br />
-<br />
+<h1 style="font-size: 2em; text-align: center;">Zhuo Su | 苏卓</h1>
 
-My work mission is to capture and understand dynamic human-centric scenes in the real world, and digitalize humans, objects, and events for immersive application in virtual and augmented reality.
-My research primarily centers around computer vision and graphics, especially human 3D generation, avatar creation, 4D reconstruction, neural rendering, motion capture, and related areas. 
-<br />
-<br />
+
+
+<table class="imgtable"><tr><td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./"><img src="./Files/suzhuo.jpg" alt="" height="240px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="left"><p><a href="./"></a>
+<i>
+
+<p>
+    I am currently a Senior Researcher at ByteDance.
+    My work mission is to capture and understand human-centric scenes in the real world, and digitalize humans, objects, and events for immersive applications in VR/AR.
+    Prior to this, I joined Tencent as a Senior Researcher through the Special Recruitment Talents Program (<span style="font-style: italic;">技术大咖&nbsp</span>). 
+    Before entering the industry, I graduated from the Department of Automation at Tsinghua University, where I had the honor of being supervised by <a href="https://media.au.tsinghua.edu.cn/info/1009/1112.htm"style="color: #007bff;">Qionghai Dai</a> and
+    <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, and collaborated closely with <a href="https://liuyebin.com/" style="color: #007bff;">Yebin Liu</a> and <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>.
+</p>
+
+<!-- <p>
+    My work mission is to capture and understand human-centric scenes in the real world, and digitalize humans, objects, and events for immersive applications in VR/AR.
+</p> -->
+
+
+
+
+<!-- My work mission is to capture and understand dynamic human-centric scenes in the real world, and digitalize humans, objects, and events for immersive application in virtual and augmented reality. -->
+<!-- My research primarily centers around computer vision and graphics, especially human 3D generation, avatar creation, 4D reconstruction, neural rendering, motion capture, and related areas.  -->
+
 
 <!-- <b style="color: #FF7F7F;">I am looking for full-time partners and research interns, please feel free to drop me an email if you are interested in the topics above.</b> -->
-<span style="color: #749ce8;">I am looking for full-time partners and research interns, please feel free to drop me an email if you are interested in the topics above!</span>
+<!-- <span style="color: #749ce8;">I am looking for full-time partners and research interns, please feel free to drop me an email if you are interested in the topics above!</span> -->
 
 
-
-
-
-</a></i>
-<br />
-<br />
-Email: suzhuo13@gmail.com | suzhuo@bytedance.com
-<br />
-<br />
-<class="staffshortcut">
- <!-- <A HREF="#Background">Background</A> |  -->
- <!-- <A HREF="#Interests">Interests</A> |  -->
- <A HREF="#Research">Research</A> | 
- <A HREF="#Awards">Awards</A>|
- <A HREF="#Skills">Skills</A> |
- <A HREF="#Services">Services</A> |
- <!--<a href="./Files/cv_zhuosu.pdf">CV</a>-->
- <A HREF=" https://scholar.google.com/citations?user=iaqDkqMAAAAJ&hl">Google Scholar</A>
-<br />
-<br />
+<!-- <br /> -->
+<div style="text-align: center; font-size: 1.1em;">
+    <p style="text-align: left; font-size: 1em; margin-bottom: 10px;">
+        Email: 
+        <a href="mailto:suzhuo13@gmail.com" style="text-decoration: none; color: #0077cc;">suzhuo13@gmail.com</a> 
+        | 
+        <a href="mailto:suzhuo@bytedance.com" style="text-decoration: none; color: #0077cc;">suzhuo@bytedance.com</a>
+    </p>
+    <!-- <br /> -->
+    <div class="staffshortcut" style="margin-top: 10px;">
+        <a href="#Research">Research</a>
+        <a href="#Talks">Talks</a>
+        <a href="#Awards">Awards</a>
+        <a href="#Miscellaneous">Miscellaneous</a> 
+        <a href="https://scholar.google.com/citations?user=iaqDkqMAAAAJ&hl">Google Scholar</a>
+    </div>
+</div>
  
 
 </td></tr></table>
 
 
  
-
 <!-- <A NAME="Background"><h2>Background</h2></A>
 <ul>
     <font style="line-height:1.8;">
@@ -100,431 +175,639 @@ Email: suzhuo13@gmail.com | suzhuo@bytedance.com
 
 
 
-<A NAME="Research"><h2>Research</h2></A>
-<font size="3"> 
+<A NAME="Research"><h2 style="font-size: 1.6em;">Research</h2></A>
+<!-- Interests and Services Section -->
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 5px; padding: 0 15px;">
+    <div style="flex: 1; min-width: 240px; max-width: 20%; padding: 20px; box-sizing: border-box;">
+        <h3 style="margin-bottom: 10px; font-size: 1.2em;">Interests</h3>
+        <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 15px;">
+            <li>AIGC (3D/Motion)</li>
+            <li>Avatar Creation</li>
+            <li>Performance Capture</li>
+            <li>Neural Rendering</li>
+            <li>Motion Capture</li>
+        </ul>
+    </div>
+    <div style="flex: 1; min-width: 240px; max-width: 70%; padding: 20px; box-sizing: border-box;">
+        <h3 style="margin-bottom: 10px; font-size: 1.2em;">Services</h3>
+        <ul style="list-style-type: disc; padding-left: 0; margin-bottom: 15px;">
+            <li>Conference Reviewer: NeurIPS, CVPR, ICCV, ICLR, ICML, IEEE VR, 3DV, AISTATS, ...</li>
+            <li>Journal Reviewer: IEEE TVCG</li>
+        </ul>
+        <h3 style="margin-bottom: 10px; font-size: 1.2em;">Skills</h3>
+        <ul style="list-style-type: disc; padding-left: 0; margin-bottom: 0;">
+            <li>Python (Pytorch), C & C++ (OpenGL, CUDA, ...), Matlab, LaTeX, ...</li>
+        </ul>
+    </div>
+</div>
+<!-- Call to Action Section -->
+<div style="padding: 0 30px; text-align: left; margin-bottom: 20px;">
+    <h3 style="margin-bottom: 8px; font-size: 1.2em; font-weight: bold;">Let's Collaborate!</h3>
+    <li>Open to discussions from academia and industry on tech implementation and real-world impact.</li>
+    <li>Looking for full-time collaborators and research interns. Contact me via email if interested.</li>
 
-<class="staffshortcut">
- <A HREF="#Generation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3D Generation / Avatar Creation</A>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <!-- <A HREF="#Avatars"> Avatar Creation</A> |  -->
- <A HREF="#Reconstruction">Performance Capture / Neural Rendering</A>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <!-- <A HREF="#Rendering">Neural Rendering</A> | -->
- <A HREF="#Motion Capture">Motion Capture / Generation</A> 
+</div>
+
+<!-- Publication Section -->
+<div style="padding: 0 30px; text-align: center; margin-bottom: 20px;">
+    <h3 style="font-size: 1.2em;">Publication</h3>
+</div>
+<nav class="staffshortcut">
+    <a href="#" class="filter-btn" data-filter="all">All</a>
+    <a href="#" class="filter-btn" data-filter="generation">Generation</a>
+    <a href="#" class="filter-btn" data-filter="animatable-avatar">Animatable Avatar</a>
+    <a href="#" class="filter-btn" data-filter="performance-capture">Performance Capture</a>
+    <a href="#" class="filter-btn" data-filter="neural-rendering">Neural Rendering</a>
+    <a href="#" class="filter-btn" data-filter="motion-capture">Motion Capture</a>
+</nav>
+
 <br />
-<ul>
+<!-- 用一条淡灰色横线分隔，减少突兀感 -->
+<div style="border-top: 1px solid #ddd; margin-top: 10px; padding-top: 5px; text-align: center; font-size: 16px; color: #666;">
+    * denotes Equal contribution, † denotes Project lead
+</div>
+<br />
 
-
-    <A NAME="Generation"></A><h3>3D Generation / Avatar Creation </h3></A>
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/humansplat.jpg" alt="" height="190px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors</b>
-            <br />
-            <a>Panwang Pan*</a>, <b>Zhuo Su*</b> (Project Lead), <a>Chenguo Lin*</a>, <a>Zhen Fan</a>, <a>Yongjie Zhang</a>, <a>Zeming Li</a>, <a>Tingting Shen</a>, <a>Yadong Mu</a>, <a>Yebin Liu</a> (*Equal Contribution)
-            <br />
-            <b><i> Neural Information Processing Systems Annual Conference (NeurIPS), 2024.</i></b>
-            <br /><br />
-            We propose HumanSplat, a method that predicts the 3D Gaussian Splatting properties of a human from a single input image in a generalizable way. It utilizes a 2D multi-view diffusion model and a latent reconstruction transformer with human structure priors to effectively integrate geometric priors and semantic features.
-            <br />
-
-            [<a href="https://arxiv.org/pdf/2406.12459">Paper</a>]
-            [<a href="https://humansplat.github.io/">Project page</a>]     
-
-         </a></span>
-         </p>
-    </td></tr></table> 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const paperItems = document.querySelectorAll(".paper-item");
     
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/joint2human.png" alt="" height="140px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joint2Human: High-quality 3D Human Generation via Compact Spherical Embedding of 3D Joints</b>
-            <br />
-            <a>Muxin Zhang</a>, <a>Qiao Feng</a>, <b>Zhuo Su</b>, <a>Chao Wen</a>, <a>Zhou Xue</a>, <a>Kun Li</a>
-            <br />
-            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</i></b>
-            <br /><br />
-             We introduce Joint2Human, a novel method that leverages 2D diffusion models to generate detailed 3D human geometry directly, ensuring both global structure and local details. 
-            <br />
-
-            [<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Joint2Human_High-Quality_3D_Human_Generation_via_Compact_Spherical_Embedding_of_CVPR_2024_paper.pdf">Paper</a>]
-            [<a href="https://cic.tju.edu.cn/faculty/likun/projects/Joint2Human/index.html">Project page</a>]     
-
-         </a></span>
-         </p>
-    </td></tr></table> 
-
-
-
-<!-- 
-    <A NAME="Avatars"></A><h3>2. Avatar Creation</h3></A> -->
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/ohta.png" alt="" height="132px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OHTA: One-shot Hand Avatar via Data-driven Implicit Priors</b>
-            <br />
-            <a>Xiaozheng Zheng</a>, <a>Chao Wen</a>, <b>Zhuo Su</b>, <a>Zeran Xu</a>, <a>Zhaohu Li</a>, <a>Yang Zhao</a>, <a>Zhou Xue</a>
-            <br />
-            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</i></b>
-            <br /><br />
-             OHTA is a novel approach capable of creating implicit animatable hand avatars using just a single image. It facilitates 1) text-to-avatar conversion, 2) hand texture and geometry editing, and 3) interpolation and sampling within the latent space.
-            <br />
-            [<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zheng_OHTA_One-shot_Hand_Avatar_via_Data-driven_Implicit_Priors_CVPR_2024_paper.pdf">Paper</a>]
-            [<a href="https://github.com/bytedance/OHTA">Project page</a>]  
-
-         </a></span>
-         </p>
-    </td></tr></table> 
-
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/headgap.png" alt="" height="102px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HeadGAP: Few-shot 3D Head Avatar via Generalizable Gaussian Priors</b>
-            <br />
-            <a>Xiaozheng Zheng</a>, <a>Chao Wen</a>, <a>Zhaohu Li</a>, <a>Weiyi Zhang</a>, <b>Zhuo Su</b>, <a>Xu Chang</a>, <a>Yang Zhao</a>, <a>Zheng Lv</a>, <a>Xiaoyuan Zhang</a>, <a>Yongjie Zhang</a>, <a>Guidong Wang</a>, <a>Lan Xu</a>
-            <br />
-            <b><i>International Conference on 3D Vision (3DV), 2025</i></b>
-            <br /><br />
-            We propose a 3D head avatar creation method that generalizes from few-shot in-the-wild data. By using 3D head priors from a large-scale dataset and a Gaussian Splatting-based network, our approach achieves high-fidelity rendering and robust animation.
-            <br />
-            [<a href="https://arxiv.org/pdf/2408.06019v1">Paper</a>]
-            [<a href="https://headgap.github.io/">Project page</a>]  
-
-         </a></span>
-         </p>
-    </td></tr></table> 
-
-
-
-    <A NAME="Reconstruction"></A><h3>Performance Capture / Neural Rendering</h3></A>
-
-
-
-
-    <!-- <A NAME="Rendering"></A><h3>4. Neural Rendering</h3></A> -->
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/Hifi4G.png" alt="" height="108px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting</b>
-            <br />
-            <a>Yuheng Jiang</a>, <a>Zhehao Shen</a>, <a>Penghao Wang</a>, <b> Zhuo Su</b>, <a>Yu Hong</a>, <a>Yingliang Zhang</a>, <a>Jingyi Yu</a>, <a>Lan Xu</a>            
-            <br />
-            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</i></b>
-            <br /><br />
-             we present an explicit and compact Gaussian-based approach for high-fidelity human performance rendering from dense footage, in which our core intuition is to marry the 3D Gaussian representation with non-rigid tracking. 
-            <br />
-            [<a href="https://arxiv.org/pdf/2312.03461.pdf">Paper</a>]
-            [<a href="https://nowheretrix.github.io/HiFi4G/">Project page</a>]
-
-         </a></span>
-         </p>
-    </td></tr></table> 
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/instant_nvr.png" alt="" height="134px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream</b>
-            <br />
-            <a>Yuheng Jiang</a>, <a>Kaixin Yao</a>, <b>Zhuo Su</b>, <a>Zhehao Shen</a>, <a>Haimin Luo</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>
-            <br />
-            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.</i></b>
-            <br /><br />
-             We propose a neural approach for instant volumetric human-object tracking and rendering using a single RGBD camera. It bridges traditional non-rigid tracking with recent instant radiance field techniques via a multi-thread tracking-rendering mechanism. 
-            <br />
-            [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_Instant-NVR_Instant_Neural_Volumetric_Rendering_for_Human-Object_Interactions_From_Monocular_CVPR_2023_paper.pdf">Paper</a>]
-            [<a href="https://nowheretrix.github.io/Instant-NVR/">Project page</a>]
-
-         </a></span>
-         </p>
-    </td></tr></table>    
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/robustfusionplus.jpg" alt="" height="193px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Robust Volumetric Performance Reconstruction under Human-object Interactions from Monocular RGBD Stream</b>
-            <br />
-            <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a>Dawei Zhong</a>, <a>Zhong Li</a>, <a>Fan Deng</a>, <a>Shuxue Quan</a>, <a href="http://luvision.net/">Lu Fang</a>
-            <br />
-            <b><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022.</i></b>
-            <br /><br />
-            <!-- We propose UnstructuredFusion, which allows realtime, high-quality, complete reconstruction of 4D textured models of human performance via only three commercial RGBD cameras. -->
-            We propose a robust volumetric performance reconstruction system for human-object interaction scenarios using only a single RGBD sensor, which combines various data-driven visual and interaction cues to handle the complex interaction patterns and severe occlusions. 
-            <br />
-            [<a href="./Projects/RobustFusion_plus_page/RobustFusionPlus.pdf">Paper</a>]
-            [<a href="./Projects/RobustFusion_plus_page/index.html">Project page</a>]
-        
-    </a></span>
-    </p>
-    </td></tr></table>
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/neuralrendering.jpg" alt="" height="138px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeuralHOFusion: Neural Volumetric Rendering Under Human-Object Interactions</b>
-            <br />
-            <a>Yuheng Jiang</a>, <a>Suyi Jiang</a>, <a>Guoxing Sun</a>, <b>Zhuo Su</b>, <a>Kaiwen Guo</a>, <a>Minye Wu</a>, <a>Jingyi Yu</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>
-            <br />
-            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022.</i></b>
-            <br /><br />
-            We propose a robust neural volumetric rendering method for human-object interaction scenarios using 6 RGBD cameras, which achieves layer-wise and photorealistic reconstruction results of human performance in novel views.
-            <br />
-            [<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf">Paper</a>]
-            [<a href="https://nowheretrix.github.io/neuralfusion/">Project page</a>]
-        
-    </a></span>
-    </p>
-    </td></tr></table>
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/robustfusion.jpg" alt="" height="180px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
+        filterButtons.forEach(button => {
+            button.addEventListener("click", function (event) {
+                event.preventDefault();
+                const category = this.getAttribute("data-filter");
     
-            <b>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RobustFusion: Human Volumetric Capture with Data-driven Visual Cues using a RGBD Camera
-                <br />
-            </b>
-            <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a href="https://zhengzerong.github.io/">Zerong Zheng</a>, <a href="https://ytrock.com/">Tao Yu</a>, <a href="https://liuyebin.com/">Yebin Liu</a>, <a href="http://luvision.net/">
-            Lu Fang</a>
-            <br />
-            <b><i>European Conference on Computer Vision (ECCV), 2020, Spotlight.</i></b>
-            <br /><br />
-            We introduce a robust human volumetric capture approach combined with various data-driven visual cues using a Kinect, which outperforms existing state-of-the-art approaches significantly.
-            <br />
-            [<a href="./Files/Rofusion.pdf">Paper</a>]
-            [<a href="./Projects/RobustFusion_page/index.html">Project page</a>]
-        </a></span>
-        </p>
-        </td></tr></table>
+                paperItems.forEach(item => {
+                    if (category === "all" || item.getAttribute("data-category").includes(category)) {
+                        item.style.display = "list-item"; // 显示匹配的论文
+                    } else {
+                        item.style.display = "none"; // 隐藏不匹配的论文
+                    }
+                });
+            });
+        });
+    });
+</script>
 
 
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/unfusion.jpg" alt="" height="150px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
+<!-- 论文列表 -->
+<ul class="paper-list">
     
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UnstructuredFusion: Realtime 4D Geometry and Texture Reconstruction using Commercial RGBD Cameras</b>
-            <br />
-            <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <b>Zhuo Su</b>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5">Lei Han</a>, <a href="https://ytrock.com/">Tao Yu</a>, <a href="https://liuyebin.com/">Yebin Liu</a>, <a href="http://luvision.net/">Lu Fang</a>
-            <br />
-            <b><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019.</i></b>
-            <br /><br />
-            We propose UnstructuredFusion, which allows realtime, high-quality, complete reconstruction of 4D textured models of human performance via only three commercial RGBD cameras.
-            <br />
-            [<a href="./Files/Unfusion.pdf">Paper</a>]
-            [<a href="./Projects/UnstructedFusion_page/index.html">Project page</a>]
+    <li class="paper-item" data-category="motion-capture">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/EMHI.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>EMHI: A Multimodal Egocentric Human Motion Dataset with HMD and Body-Worn IMUs</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">Zhen Fan*, Peng Dai*, <b>Zhuo Su*</b>, Xu Gao, Zheng Lv, Jiarui Zhang, Tianyuan Du, Guidong Wang, Yang Zhang
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>AAAI 2025</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444;">
+                            We introduce EMHI, a dataset combining stereo images from headsets and IMU data for egocentric human motion capture in VR. It includes 28.5 hours of data from 58 subjects. We also propose MEPoser, a method that effectively uses this multimodal data for improved pose estimation.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://arxiv.org/pdf/2408.17168" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="#" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page: Coming soon</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+    <li class="paper-item" data-category="animatable-avatar neural-rendering">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="#"><img src="./Files/headgap.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>HeadGAP: Few-shot 3D Head Avatar via Generalizable Gaussian Priors</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                            <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Xiaozheng Zheng</a>, Chao Wen, Zhaohu Li, Weiyi Zhang, <b>Zhuo Su</b>, Xu Chang, Yang Zhao, Zheng Lv, Xiaoyuan Zhang, Yongjie Zhang, Guidong Wang, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>3DV 2025</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            We propose a 3D head avatar creation method that generalizes from few-shot in-the-wild data. By using 3D head priors from a large-scale dataset and a Gaussian Splatting-based network, our approach achieves high-fidelity rendering and robust animation.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://arxiv.org/pdf/2408.06019v1" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://headgap.github.io/" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
     
-    </a></span>
-    </p>
-    </td></tr></table>
+    <li class="paper-item" data-category="generation neural-rendering">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="#"><img src="./Files/humansplat.jpg" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                            Panwang Pan*, <b>Zhuo Su* † </b> <span style="color: #888;">(Project Lead)</span>, Chenguo Lin*, 
+                            Zhen Fan, Yongjie Zhang, Zeming Li, Tingting Shen, Yadong Mu, Yebin Liu
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>NeurIPS 2024</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            We propose HumanSplat, a method that predicts the 3D Gaussian Splatting properties of a human from a single input image in a generalizable way. It utilizes a 2D multi-view diffusion model and a latent reconstruction transformer with human structure priors to effectively integrate geometric priors and semantic features.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://arxiv.org/pdf/2406.12459" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://humansplat.github.io/" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />                       
+                </td>
+            </tr>
+        </table>
+    </li>
+
+    <li class="paper-item" data-category="generation motion-capture">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/SMGDiff.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>SMGDiff: Soccer Motion Generation using Diffusion Probabilistic Models</b>
+                        <br />
+                        <span style="font-size: 14px; color: #444;">Hongdi Yang, Chengyang Li, Zhenxuan Wu, Gaozheng Li, Jingya Wang, <a href="https://scholar.google.com/citations?user=R9L_AfQAAAAJ&hl" style="color: #007bff";>Jingyi Yu</a>, , <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a></span>
+                        <br />
+                        <span style="font-size: 14px; color: #444;"><i><b>arXiv 2024</b></i></span>
+                        <br />
+                        <p style="font-size: 14px; color: #444;">
+                            We introduce SMGDiff, a novel two-stage framework for generating real-time and user-controllable soccer motions. Our key idea is to integrate real-time character control with a powerful diffusion-based generative model, ensuring high-quality and diverse output motion.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://arxiv.org/pdf/2411.16216" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="#" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page: Coming soon</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+
+    <li class="paper-item" data-category="motion-capture">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/envposer.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>EnvPoser: Environment-aware Realistic Human Motion Estimation from Sparse Observations with Uncertainty Modeling</b>
+                        <br />
+                        <span style="font-size: 14px; color: #444;">Songpengcheng Xia, Yu Zhang, <b>Zhuo Su</b>, Xiaozheng Zheng, Zheng Lv, Guidong Wang, Yongjie Zhang, Qi Wu, Lei Chu, Ling Pei</span>
+                        <br />
+                        <span style="font-size: 14px; color: #444;"><i><b>arXiv 2024</b></i></span>
+                        <br />
+                        <p style="font-size: 14px; color: #444;">
+                            We propose EnvPoser, a two-stage method using sparse tracking signals and pre-scanned environment from VR devices to perform full-body motion estimation and handle the multi-hypothesis nature with uncertainty-aware and environmental constraint integration.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://arxiv.org/pdf/2412.10235" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="#" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page: Coming soon</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+    <li class="paper-item" data-category="performance-capture neural-rendering">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/Hifi4G.png" alt="HiFi4G: High-Fidelity Human Performance Rendering" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                            <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Yuheng Jiang</a>, <a href="#" style="color: #007bff;">Zhehao Shen</a>, <a href="#" style="color: #007bff;">Penghao Wang</a>, <b>Zhuo Su</b>, <a href="#" style="color: #007bff;">Yu Hong</a>, <a href="#" style="color: #007bff;">Yingliang Zhang</a>, <a href="https://scholar.google.com/citations?user=R9L_AfQAAAAJ&hl">Jingyi Yu</a>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>CVPR 2024.</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            We present an explicit and compact Gaussian-based approach for high-fidelity human performance rendering from dense footage, in which our core intuition is to marry the 3D Gaussian representation with non-rigid tracking.
+                        </p>
+                        <div style="margin-top: 10px;">
+                            <a href="https://arxiv.org/pdf/2312.03461.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                            <a href="https://nowheretrix.github.io/HiFi4G/" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px; margin-left: 10px;">Project page</a>
+                        </div>
+                        <br />
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </li>    
+    
+    <li class="paper-item" data-category="generation">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="#"><img src="./Files/joint2human.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>Joint2Human: High-quality 3D Human Generation via Compact Spherical Embedding of 3D Joints</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                            Muxin Zhang, Qiao Feng, <b>Zhuo Su</b>, Chao Wen, Zhou Xue, Kun Li
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>CVPR 2024</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            We introduce Joint2Human, a novel method that leverages 2D diffusion models to generate detailed 3D human geometry directly, ensuring both global structure and local details.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Joint2Human_High-Quality_3D_Human_Generation_via_Compact_Spherical_Embedding_of_CVPR_2024_paper.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://cic.tju.edu.cn/faculty/likun/projects/Joint2Human/index.html" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+    <li class="paper-item" data-category="animatable-avatar">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="#"><img src="./Files/ohta.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>OHTA: One-shot Hand Avatar via Data-driven Implicit Priors</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                            <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Xiaozheng Zheng</a>, Chao Wen, <b>Zhuo Su</b>, Zeran Xu, Zhaohu Li, Yang Zhao, Zhou Xue
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>CVPR 2024</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            OHTA is a novel approach capable of creating implicit animatable hand avatars using just a single image. It facilitates 1) text-to-avatar conversion, 2) hand texture and geometry editing, and 3) interpolation and sampling within the latent space.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zheng_OHTA_One-shot_Hand_Avatar_via_Data-driven_Implicit_Priors_CVPR_2024_paper.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://github.com/bytedance/OHTA" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+    <li class="paper-item" data-category="motion-capture">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/hmdposer.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>HMD-Poser: On-Device Real-time Human Motion Tracking from Scalable Sparse Observations</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                            Peng Dai, Yang Zhang, Tao Liu, Zhen Fan, Tianyuan Du, <b>Zhuo Su</b>, Xiaozheng Zheng, Zeming Li
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>CVPR 2024</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            We propose HMD-Poser, the first unified approach to recover full-body motions using scalable sparse observations from HMD and body-worn IMUs. In particular, it can support a variety of input scenarios, such as HMD, HMD+2IMUs, HMD+3IMUs, etc.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Dai_HMD-Poser_On-Device_Real-time_Human_Motion_Tracking_from_Scalable_Sparse_Observations_CVPR_2024_paper.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://pico-ai-team.github.io/hmd-poser" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+    <li class="paper-item" data-category="motion-capture">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/AvatarJLM.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>Realistic Full-Body Tracking from Sparse Observations via Joint-Level Modeling</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                            <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Xiaozheng Zheng</a>*, <b>Zhuo Su*</b>, Chao Wen, Zhou Xue, Xiaojie Jin
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>ICCV 2023</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            We propose a two-stage framework that can obtain accurate and smooth full-body motions with the three tracking signals of head and hands only, in which we first explicitly model the joint-level features and then utilize them as spatiotemporal transformer tokens to capture joint-level correlations.
+                        </p>
+                        <div style="margin-top: 10px;">
+                            <a href="https://arxiv.org/pdf/2308.08855.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                            <a href="https://github.com/zxz267/AvatarJLM/" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                        </div>
+                        <br />
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </li>
+    
+    <li class="paper-item" data-category="performance-capture neural-rendering">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/instant_nvr.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream</b>
+                        <br />
+                        <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                            Yuheng Jiang, Kaixin Yao, <b>Zhuo Su</b>, Zhehao Shen, Haimin Luo, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            <i><b>CVPR 2023</b></i>
+                        </p>
+                        <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                            We propose a neural approach for instant volumetric human-object tracking and rendering using a single RGBD camera. It bridges traditional non-rigid tracking with recent instant radiance field techniques via a multi-thread tracking-rendering mechanism.
+                        </p>
+                        <div style="margin-top: 10px;">
+                            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_Instant-NVR_Instant_Neural_Volumetric_Rendering_for_Human-Object_Interactions_From_Monocular_CVPR_2023_paper.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                            <a href="https://nowheretrix.github.io/Instant-NVR/" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                        </div>
+                        <br />
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </li>
+
+    <li class="paper-item" data-category="performance-capture">
+    <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+        <tr>
+            <td style="width: 30%; text-align: center;">
+                <a href="./"><img src="./Files/robustfusionplus.jpg" alt="" style="width: 100%; height: auto;" /></a>
+            </td>
+            <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                <p>
+                    <b>Robust Volumetric Performance Reconstruction under Human-object Interactions from Monocular RGBD Stream</b>
+                    <br />
+                    <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                        <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>, Dawei Zhong, Zhong Li, Fan Deng, Shuxue Quan, <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        <i><b>TPAMI 2022</b></i>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        We propose a robust volumetric performance reconstruction system for human-object interaction scenarios using only a single RGBD sensor, which combines various data-driven visual and interaction cues to handle the complex interaction patterns and severe occlusions.
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="./Projects/RobustFusion_plus_page/RobustFusionPlus.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="./Projects/RobustFusion_plus_page/index.html" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </p>
+            </td>
+        </tr>
+    </table>
+</li>
+
+<li class="paper-item" data-category="performance-capture neural-rendering">
+    <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+        <tr>
+            <td style="width: 30%; text-align: center;">
+                <a href="./"><img src="./Files/neuralrendering.jpg" alt="NeuralHOFusion" style="width: 100%; height: auto;" /></a>
+            </td>
+            <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                <p>
+                    <b>NeuralHOFusion: Neural Volumetric Rendering Under Human-Object Interactions</b>
+                    <br />
+                    <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                        Yuheng Jiang, Suyi Jiang, Guoxing Sun, <b>Zhuo Su</b>, Kaiwen Guo, Minye Wu, <a href="https://scholar.google.com/citations?user=R9L_AfQAAAAJ&hl">Jingyi Yu</a>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        <i><b>CVPR 2022</b></i>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        We propose a robust neural volumetric rendering method for human-object interaction scenarios using 6 RGBD cameras, achieving layer-wise and photorealistic reconstruction results of human performance in novel views.
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://nowheretrix.github.io/neuralfusion/" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </p>
+            </td>
+        </tr>
+    </table>
+</li>
+
+<li class="paper-item" data-category="motion-capture">
+    <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+        <tr>
+            <td style="width: 30%; text-align: center;">
+                <a href="./"><img src="./Files/stylemotion.png" alt="Learning Variational Motion Prior" style="width: 100%; height: auto;" /></a>
+            </td>
+            <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                <p>
+                    <b>Learning Variational Motion Prior for Video-based Motion Capture</b>
+                    <br />
+                    <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                        Xin Chen*, <b>Zhuo Su*</b>, Lingbo Yang*, Pei Cheng, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>, Gang Yu 
+                        <span style="font-size: 12px; color: #777;">(*Equal Contribution)</span>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        <i><b>arXiv 2022</b></i>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        We propose a novel variational motion prior (VMP) learning approach for video-based motion capture. Specifically, VMP is implemented as a transformer-based variational autoencoder pretrained over large-scale 3D motion data, providing an expressive latent space for human motion at sequence level.
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://arxiv.org/pdf/2210.15134.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                    </div>
+                    <br />
+                </p>
+            </td>
+        </tr>
+    </table>
+</li>
  
+<li class="paper-item" data-category="performance-capture">
+    <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+        <tr>
+            <td style="width: 30%; text-align: center;">
+                <a href="./"><img src="./Files/robustfusion.jpg" alt="RobustFusion: Human Volumetric Capture" style="width: 100%; height: auto;" /></a>
+            </td>
+            <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                <p>
+                    <b>RobustFusion: Human Volumetric Capture with Data-driven Visual Cues using a RGBD Camera</b>
+                    <br />
+                    <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                        <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>, <a href="https://zhengzerong.github.io/" style="color: #007bff;">Zerong Zheng</a>, <a href="https://ytrock.com/" style="color: #007bff;">Tao Yu</a>, <a href="https://liuyebin.com/" style="color: #007bff;">Yebin Liu</a>, <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        <i><b>ECCV 2020 (Spotlight)</b></i>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        We introduce a robust human volumetric capture approach combined with various data-driven visual cues using a Kinect, which outperforms existing state-of-the-art approaches significantly.
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="./Files/Rofusion.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="./Projects/RobustFusion_page/index.html" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px; margin-left: 10px;">Project page</a>
+                    </div>
+                    <br />
+                </p>
+            </td>
+        </tr>
+    </table>
+</li>
 
+<li class="paper-item" data-category="performance-capture">
+    <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+        <tr>
+            <td style="width: 30%; text-align: center;">
+                <a href="./"><img src="./Files/unfusion.jpg" alt="UnstructuredFusion: Realtime 4D Geometry and Texture Reconstruction" style="width: 100%; height: auto;" /></a>
+            </td>
+            <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                <p>
+                    <b>UnstructuredFusion: Realtime 4D Geometry and Texture Reconstruction using Commercial RGBD Cameras</b>
+                    <br />
+                    <p style="margin: 5px 0; font-size: 14px; color: #444;">
+                        <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>, <b>Zhuo Su</b>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5" style="color: #007bff;">Lei Han</a>, <a href="https://ytrock.com/" style="color: #007bff;">Tao Yu</a>, <a href="https://liuyebin.com/" style="color: #007bff;">Yebin Liu</a>, <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        <i><b>TPAMI 2019</b></i>
+                    </p>
+                    <p style="font-size: 14px; color: #444; margin-top: 10px;">
+                        We propose UnstructuredFusion, which allows realtime, high-quality, complete reconstruction of 4D textured models of human performance via only three commercial RGBD cameras.
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="./Files/Unfusion.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="./Projects/UnstructedFusion_page/index.html" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px; margin-left: 10px;">Project page</a>
+                    </div>
+                </p>
+            </td>
+        </tr>
+    </table>
+</li>
 
-    
+<A NAME="Talks"><h2 style="font-size: 1.6em;">Invited Talks</h2></A>
 
-    <A NAME="Motion Capture"></A><h3>Motion Capture / Motion Generation</h3></A>
-
-
-    
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/SMGDiff.png" alt="" height="140px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SMGDiff: Soccer Motion Generation using diffusion probabilistic models
-            </b>
-            <br />
-            <a>Hongdi Yang</a>, <a>Chengyang Li</a>, <a>Zhenxuan Wu</a>, <a>Gaozheng Li</a>, <a>Jingya Wang</a>, <a>Jingyi Yu</a>, <b>Zhuo Su</b>, <a>Lan Xu</a>
-            <br />
-            <b><i>Arxiv, 2024.</i></b>
-            <br /><br />
-            We introduce SMGDiff, a novel two-stage framework for generating real-time and user-controllable soccer motions. Our key idea is to integrate real-time character control with a powerful diffusion-based generative model, ensuring high-quality and diverse output motion.
-            <br />
-            [<a href="https://arxiv.org/pdf/2411.16216">Paper</a>]
-            [<a>Project page: Coming soon</a>]
-
-         </a></span>
-         </p>
-    </td></tr></table> 
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/envposer.png" alt="" height="158px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EnvPoser: Environment-aware Realistic Human Motion Estimation from Sparse Observations with Uncertainty Modeling
-            </b>
-            <br />
-            <a>Songpengcheng Xia</a>, <a>PYu Zhang</a>, <b>Zhuo Su</b>(Project Lead), <a>Xiaozheng Zheng</a>, <a>Zheng Lv</a>, <a>Guidong Wang</a>, <a>Yongjie Zhang</a>, <a>Qi Wu</a>, <a>Lei Chu</a>, <a>Ling Pei</a>  (*Equal Contribution)         
-            <br />
-            <b><i>Arxiv, 2024.</i></b>
-            <br /><br />
-            We propose EnvPoser, a two-stage method using sparse tracking signals and pre-scanned environment from VR devices to perform full-body motion estimation and handle the multi-hypothesis nature with uncertainty-aware and environmental constraint integration.
-            <br />
-            [<a href="https://arxiv.org/pdf/2412.10235">Paper</a>]
-            [<a>Project page: Coming soon</a>]
-
-         </a></span>
-         </p>
-    </td></tr></table> 
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/EMHI.png" alt="" height="164px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMHI: A Multimodal Egocentric Human Motion Dataset with HMD and Body-Worn IMUs
-            </b>
-            <br />
-            <a>Zhen Fan*</a>, <a>Peng Dai*</a>, <b>Zhuo Su*</b>, <a>Xu Gao</a>, <a>Zheng Lv</a>, <a>Jiarui Zhang</a>, <a>Tianyuan Du</a>, <a>Guidong Wang</a>, <a>Yang Zhang</a>  (*Equal Contribution)         
-            <br />
-            <b><i>Annual AAAI Conference on Artificial Intelligence (AAAI), 2025.</i></b>
-            <br /><br />
-            We introduce EMHI, a dataset combining stereo images from headsets and IMU data for egocentric human motion capture in VR. It includes 28.5 hours of data from 58 subjects. We also propose MEPoser, a method that effectively uses this multimodal data for improved pose estimation.
-            <br />
-            [<a href="https://arxiv.org/pdf/2408.17168">Paper</a>]
-            [<a>Project page: Coming soon</a>]
-
-         </a></span>
-         </p>
-    </td></tr></table> 
-
-
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/hmdposer.png" alt="" height="157px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HMD-Poser: On-Device Real-time Human Motion Tracking from Scalable Sparse Observations</b>
-            <br />
-            <a>Peng Dai</a>, <a>Yang Zhang</a>, <a>Tao Liu</a>, <a>Zhen Fan</a>, <a>Tianyuan Du</a>, <b>Zhuo Su</b>, <a>Xiaozheng Zheng</a>, <a>Zeming Li</a>           
-            <br />
-            <b><i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</i></b>
-            <br /><br />
-            We propose HMD-Poser, the first unified approach torecover full-body motions using scalable sparse observations from HMD and body-worn IMUs. In particular, it can support a variety of input scenarios, such as HMD,HMD+2IMUs, HMD+3IMUs, etc. 
-            <br />
-            [<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Dai_HMD-Poser_On-Device_Real-time_Human_Motion_Tracking_from_Scalable_Sparse_Observations_CVPR_2024_paper.pdf">Paper</a>]
-            [<a href="https://pico-ai-team.github.io/hmd-poser">Project page</a>]
-
-         </a></span>
-         </p>
-    </td></tr></table> 
+<ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 20px; padding-left: 20px; vertical-align: top;">
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <!-- Image container with width 30% and height auto to keep the aspect ratio -->
+            <div style="width: 30%; text-align: center;">
+                <a href="./">
+                    <img src="./Files/talk-bytedance.png" style="width: 100%; height: auto;" />
+                </a>
+            </div>
+            <!-- Text container taking up the remaining 70% -->
+            <div style="width: 70%; padding-left: 20px;">
+                <p><b>Human 3D Reconstruction and Generation</b></p>
+                <p style="font-size: 14px; color: #444; margin-top: 10px;">The construction of realistic 3D human avatars is crucial in VR/AR applications. This talk focuses on 3D human modeling, covering topics from traditional volumetric capture to neural rendering, from per-scene optimization to generalizable prior model training and generative methods. I shared my exploration in this field, hoping to inspire related research.</p>
+                <p><i>Dec 26, 2024, ByteDance, Online Live Stream | ByteTech Technical Sharing Seminar</i></p>
+            </div>
+        </div>
+    </li>
+</ul>
 
 
 
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/AvatarJLM.png" alt="" height="108px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Realistic Full-Body Tracking from Sparse Observations via Joint-Level Modeling</b>
-            <br />
-            <a>Xiaozheng Zheng*</a>, <b>Zhuo Su*</b>, <a>Chao Wen</a>, <a>Zhou Xue</a>, <a>Xiaojie Jin</a> (*Equal Contribution)
-            <br />
-            <b><i>IEEE/CVF International Conference on Computer Vision (ICCV), 2023.</i></b>
-            <br /><br />
-             We propose a two-stage framework that can obtain accurate and smooth full-body motions with the three tracking signals of head and hands only, in which we first explicitly model the joint-level features and then utilize them as spatiotemporal transformer tokens to capture joint-level correlations. 
-            <br />
-            [<a href="https://arxiv.org/pdf/2308.08855.pdf">Paper</a>]
-            [<a href="https://github.com/zxz267/AvatarJLM/">Project page</a>]
-
-         </a></span>
-         </p>
-    </td></tr></table>  
-
-
-    <table class="imgtable"><tr><td>
-        <a href="./"><img src="./Files/stylemotion.png" alt="" height="134px" /></a>&nbsp;</td>
-        <td align="left"><p><a href="./"></a>
-        <p style="text-indent: -1.6rem;margin-left: 0rem;">
-        <span> 
-        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Variational Motion Prior for Video-based Motion Capture</b>
-            <br />
-            <a>Xin Chen*</a>, <b>Zhuo Su*</b>, <a>Lingbo Yang*</a>, <a>Pei Cheng</a>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, <a>Gang Yu</a> (*Equal Contribution)
-            <br />
-            <b><i>arXiv, 2022.</i></b>
-            <br /><br />
-            We propose a novel variational motion prior (VMP) learning approach for video-based motion capture. Specifically, VMP is implemented as a transformer-based variational autoencoder pretrained over large-scale 3D motion data, providing an expressive latent space for human motion at sequence level. 
-            <br />
-            [<a href="https://arxiv.org/pdf/2210.15134.pdf">Paper</a>]
-         </a></span>
-         </p>
-    </td></tr></table>
-
-
-
-
+<A NAME="Awards"><h2 style="font-size: 1.6em;">Awards</h2></A>
+<ul>
+<li>PICO "Star Team Award" Innovation Breakthrough Award (<span style="font-style: italic;">创新突破奖&nbsp</span>), Bytedance, 2023</li>
+<li>Tencent Open Source Collaboration Award (<span style="font-style: italic;">腾讯开源协同奖&nbsp</span>), Tencent, 2021</li>
+<li>Outstanding Graduate of Beijing, Beijing, 2021</li>
+<li>Outstanding Graduate of Department of Automation, Tsinghua University, 2021</li>
+<li>Excellent Bachelor Thesis Award, Northeastern University, 2018</li>
+<li>Outstanding Graduate of Liaoning Province, Liaoning Province, 2018</li>
+<li>National Scholarship, Ministry of Education, 2018</li>
+<li>Excellence Award for National Undergraduate Innovation Program, Northeastern University, 2017</li>
+<li>City's Excellent Undergraduate, Shenyang City, 2017</li>
+<li>Mayor's Scholarship, Shenyang City, 2017</li>
+<li>Top Ten Excellent Undergraduate (10 / the whole university, <span style="font-style: italic;">十佳本科生&nbsp</span>), Northeastern University, 2017</li>
+<li>Honorable Mention of American Mathematical Contest in Modeling, COMAP, 2017</li>
+<li>Second Prize of National Undergraduate Mathematical Contest in Modeling, CSIAM, 2016</li>
+<li>First Prize of Provincial Undergraduate Mathematical Contest in Modeling, Liaoning Province, 2016</li>
+<li>2x Second Prize of Electronic Design Contest, Education Department of Liaoning Province, 2015-2016</li>
+<li>4x First Class Scholarships, Northeastern University, 2015-2018</li>
 </ul>
 <br />
- 
 
- 
 
-<A NAME="Projects"><h2>Patents</h2></A>
-<font size="3"> 
+<A NAME="Miscellaneous"><h2 style="font-size: 1.6em;">Miscellaneous</h2></A>
     <ul>
-    <li> <a href="http://luvision.net/">Lu Fang</a>,<a>Mengqi Ji</a>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5">Lei Han</a>, <b>Zhuo Su</b>,  <a href="http://media.au.tsinghua.edu.cn/english/team/qhdai.html"> Qionghai Dai</a>,
+    <li> <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, <a href="https://ji-mengqi.com/" style="color: #007bff;">Mengqi Ji</a>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5" style="color: #007bff;">Lei Han</a>, <b>Zhuo Su</b>,  <a href="https://media.au.tsinghua.edu.cn/info/1009/1112.htm" style="color: #007bff;"> Qionghai Dai</a>,
         “Depth Camera-based three-dimensional renconstruction method and apparatus, device, and storage medium”, Patent, US201916977899A
    </li>
-    <li> <a href="http://luvision.net/">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5">Lei Han</a>, <a href="http://media.au.tsinghua.edu.cn/english/team/qhdai.html"> Qionghai Dai</a>,
+    <li> <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5" style="color: #007bff;">Lei Han</a>, <a href="https://media.au.tsinghua.edu.cn/info/1009/1112.htm" style="color: #007bff;"> Qionghai Dai</a>,
          “Depth camera calibration method and device, electronic equipment and storage medium”, Patent, CN:201810179738:A
     </li>
     <li>
-        <a href="http://luvision.net/">Lu Fang</a>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5">Lei Han</a>, <b>Zhuo Su</b>, <a href="http://media.au.tsinghua.edu.cn/english/team/qhdai.html"> Qionghai Dai</a>,
+        <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, <a href="https://sites.google.com/view/lhanaf/%E9%A6%96%E9%A1%B5" style="color: #007bff;">Lei Han</a>, <b>Zhuo Su</b>, <a href="https://media.au.tsinghua.edu.cn/info/1009/1112.htm" style="color: #007bff;"> Qionghai Dai</a>,
         “A three-dimensional rebuilding method and device based on a depth camera, an apparatus and a storage medium”, Patent, CN:201810179264:A
     </li>
     <li>
-        <a href="http://luvision.net/">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>,
+        <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>,
         “Dynamic three-dimensional reconstruction method, device, equipment, medium and system”, Patent, CN:201910110062:A
     </li>
     <li>
-        <a href="http://luvision.net/">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>,
+        <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>,
         “Texture real-time determination method, device and equipment for dynamic scene and medium”, Patent, CN:201910110044:A
     </li>
     <li>
-        <a href="http://luvision.net/">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, Jianwei Wen, Chao Yuan,
+        <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>, Jianwei Wen, Chao Yuan,
         “Dynamic human body three-dimensional reconstruction method, device, equipment and medium”, Patent, CN:202010838902:A
     </li>
     <li>
-        <a href="http://luvision.net/">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html">Lan Xu</a>, Jianwei Wen, Chao Yuan,
+        <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, <b>Zhuo Su</b>, <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>, Jianwei Wen, Chao Yuan,
         “Dynamic human body three-dimensional model completion method and device, equipment and medium”, Patent, CN:202010838890:A
     </li>
     <li>
         <b>Zhuo Su</b>, Xiaozhe Wang, Wen Fei, Changfu Zhou,
         “Multi-feature information landmark detection method for precise landing of unmanned aerial vehicle”, Patent, CN:201710197369:A
     </li>
-    <li> Wen Fei, <b>Zhuo Su*</b> (*corresponding author), Changfu Zhou,
+    <li> Wen Fei, <b>Zhuo Su‡</b> <span style="color: #888;">(Corresponding author)</span>, Changfu Zhou,
          “Artificial landmark design and detection using hierarchy information for UAV localization and landing”,
     Conference Paper, Chinese Control And Decision Conference (CCDC) 2017,
         <!-- [<a href="./Files/UAV.pdf">Paper</a>] -->
@@ -536,36 +819,13 @@ Email: suzhuo13@gmail.com | suzhuo@bytedance.com
 </ul>
 <br />
 
-
-<!-- awards -->
-<A NAME="Awards"><h2>Awards</h2></A>
-<font size="3"> 
-<ul>
-<li>Outstanding Graduate of Beijing, Beijing, 2021</li>
-<li>Outstanding Graduate of Department of Automation, Tsinghua University, 2021</li>
-<li>Excellent Bachelor Thesis Award, Northeastern University, 2018</li>
-<li>Outstanding Graduate of Liaoning Province, Liaoning Province, 2018</li>
-<li>National Scholarship, Ministry of Education, 2018</li>
-<li>Excellence Award for National Undergraduate Innovation Program, Northeastern University, 2017</li>
-<li>City's Excellent Undergraduate, Shenyang City, 2017</li>
-<li>Mayor's Scholarship, Shenyang City, 2017</li>
-<li>Top Ten Excellent Undergraduate (10 / the whole university, 十佳本科生), Northeastern University, 2017</li>
-<li>Honorable Mention of American Mathematical Contest in Modeling, COMAP, 2017</li>
-<li>Second Prize of National Undergraduate Mathematical Contest in Modeling, CSIAM, 2016</li>
-<li>First Prize of Provincial Undergraduate Mathematical Contest in Modeling, Liaoning Province, 2016</li>
-<li>2x Second Prize of Electronic Design Contest, Education Department of Liaoning Province, 2015-2016</li>
-<li>4x First Class Scholarships, Northeastern University, 2015-2018</li>
-</ul>
-</font>
-<br />
-
-<A NAME="Skills"><h2>Skills</h2></A>
+<!-- <A NAME="Skills"><h2>Skills</h2></A>
 &nbsp;&nbsp;&nbsp;&nbsp; C & C++(OpenCV, OpenGL, CUDA, Eigen, ...), Python(Pytorch), Matlab, LaTeX, ...
 <br />
 
 <A NAME="Services"><h2>Services</h2></A>
 &nbsp;&nbsp;&nbsp;&nbsp; Reviewer for NeurIPS, CVPR, ICCV, ICLR, ICML, TVCG, IEEEVR, 3DV, AISTATS, ...
-<br />
+<br /> -->
 
 
 <br />
