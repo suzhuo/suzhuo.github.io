@@ -224,7 +224,7 @@
 <br />
 <!-- 用一条淡灰色横线分隔，减少突兀感 -->
 <div style="border-top: 1px solid #ddd; margin-top: 10px; padding-top: 5px; text-align: center; font-size: 16px; color: #666;">
-    * denotes Equal contribution, † denotes Project lead
+    * denotes Equal contribution, † denotes Project lead, ‡ denotes Corresponding author
 </div>
 <br />
 
@@ -254,6 +254,37 @@
 <!-- 论文列表 -->
 <ul class="paper-list">
 
+
+    <li class="paper-item" data-category="animatable-avatar neural-rendering">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/SEGA.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>SEGA: Drivable 3D Gaussian Head Avatar from a Single Image</b>
+                        <br />
+                        <span style="font-size: 14px; color: #444;">Chen Guo*, <b>Zhuo Su*‡</b> <span style="color: #888;">(Corresponding Author)</span>, <a href="https://jianwang-mpi.github.io/" style="color: #007bff;">Jian Wang</a> , Shuang Li, Xu Chang, Zhaohu Li, Yang Zhao, Guidong Wang, <a href="https://rqhuang88.github.io/" style="color: #007bff;">Ruqi Huang‡</a> </span>
+                        <!-- <span style="font-size: 14px; color: #444;">Songpengcheng Xia, Yu Zhang, <b>Zhuo Su† </b> <span style="color: #888;">(Project Lead)</span>, Xiaozheng Zheng, Zheng Lv, Guidong Wang, Yongjie Zhang, Qi Wu, Lei Chu, Ling Pei</span> -->
+                        <br />
+                        <span style="font-size: 14px; color: #444;"><i><b>arXiv 2025</b></i></span>
+                        <br />
+                        <p style="font-size: 14px; color: #444;">
+                            We propose SEGA, a novel approach for Single-imagE-based 3D drivable Gaussian head Avatar creation that combines generalized prior models with a new hierarchical UV-space Gaussian Splatting framework.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://arxiv.org/pdf/2504.14373" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://sega-head.github.io/" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+
     <li class="paper-item" data-category="motion-capture">
         <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
             <tr>
@@ -264,7 +295,7 @@
                     <p>
                         <b>EnvPoser: Environment-aware Realistic Human Motion Estimation from Sparse Observations with Uncertainty Modeling</b>
                         <br />
-                        <span style="font-size: 14px; color: #444;">Songpengcheng Xia, Yu Zhang, <b>Zhuo Su† </b> <span style="color: #888;">(Project Lead)</span>, Xiaozheng Zheng, Zheng Lv, Guidong Wang, Yongjie Zhang, Qi Wu, Lei Chu, Ling Pei</span>
+                        <span style="font-size: 14px; color: #444;"> <a href="https://xspc.github.io/"style="color: #007bff;"> Songpengcheng Xia</a>, Yu Zhang, <b>Zhuo Su† </b> <span style="color: #888;">(Project Lead)</span>, Xiaozheng Zheng, Zheng Lv, Guidong Wang, Yongjie Zhang, Qi Wu, Lei Chu, <a href="https://scholar.google.com/citations?user=Vm7d2EkAAAAJ&hl" style="color: #007bff;"> Ling Pei‡</a></span>
                         <br />
                         <span style="font-size: 14px; color: #444;"><i><b>CVPR 2025</b></i></span>
                         <br />
@@ -293,7 +324,7 @@
                     <p>
                         <b>RePerformer: Immersive Human-centric Volumetric Videos from Playback to Photoreal Reperformance</b>
                         <br />
-                        <span style="font-size: 14px; color: #444;"><a href="https://nowheretrix.github.io/" style="color: #007bff;">Yuheng Jiang</a>, Zhehao Shen, Chengcheng Guo, Yu Hong, <b>Zhuo Su</b>, Yingliang Zhang, <a href="https://people.mpi-inf.mpg.de/~mhaberma/" style="color: #007bff;">Marc Habermann</a>, <a href="http://www.xu-lan.com/" style="color: #007bff;">Lan Xu</a></span>
+                        <span style="font-size: 14px; color: #444;"><a href="https://nowheretrix.github.io/" style="color: #007bff;">Yuheng Jiang</a>, Zhehao Shen, Chengcheng Guo, Yu Hong, <b>Zhuo Su</b>, Yingliang Zhang, <a href="https://people.mpi-inf.mpg.de/~mhaberma/" style="color: #007bff;">Marc Habermann‡</a>, <a href="http://www.xu-lan.com/" style="color: #007bff;">Lan Xu‡</a></span>
                         <br />
                         <span style="font-size: 14px; color: #444;"><i><b>CVPR 2025</b></i></span>
                         <br />
@@ -382,7 +413,7 @@
                         <br />
                         <p style="margin: 5px 0; font-size: 14px; color: #444;">
                             Panwang Pan*, <b>Zhuo Su* † </b> <span style="color: #888;">(Project Lead)</span>, Chenguo Lin*, 
-                            Zhen Fan, Yongjie Zhang, Zeming Li, Tingting Shen, Yadong Mu, Yebin Liu
+                            Zhen Fan, Yongjie Zhang, Zeming Li, Tingting Shen, Yadong Mu, <a href="https://www.liuyebin.com/" style="color: #007bff";>Yebin Liu‡</a>
                         </p>
                         <p style="font-size: 14px; color: #444; margin-top: 10px;">
                             <i><b>NeurIPS 2024</b></i>
