@@ -102,8 +102,9 @@
 <i>
 
 <p>
-    I am currently a Tech Lead and Researcher at ByteDance.
-    My work mission is to capture and understand human-centric scenes in the real world, and digitalize humans, objects, and events for immersive applications in VR / AR.
+    I am currently a Tech Lead and Researcher at PICO, ByteDance.  
+    My work mission is to build AI-native systems that capture, understand human-centric scenes in the real world, and digitalize / generate humans, objects, and events for immersive applications in VR / AR. 
+    <!-- My work mission is to capture and understand human-centric scenes in the real world, and digitalize humans, objects, and events for immersive applications in VR / AR. -->
     Prior to this, I joined Tencent as a Senior Researcher through the Special Recruitment Talents Program (<span style="font-style: italic;">技术大咖&nbsp</span>). 
     Before entering the industry, I graduated from the Department of Automation at Tsinghua University, where I had the honor of being supervised by <a href="https://media.au.tsinghua.edu.cn/info/1009/1112.htm"style="color: #007bff;">Qionghai Dai</a> and
     <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, and collaborated closely with <a href="https://liuyebin.com/" style="color: #007bff;">Yebin Liu</a> and <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>.
@@ -178,14 +179,16 @@
 <A NAME="Research"><h2 style="font-size: 1.6em;">Research</h2></A>
 <!-- Interests and Services Section -->
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 0px; padding: 0 15px;">
-    <div style="flex: 1; min-width: 240px; max-width: 20%; padding: 20px; box-sizing: border-box;">
+    <div style="flex: 1; min-width: 240px; max-width: 30%; padding: 20px; box-sizing: border-box;">
         <h3 style="margin-bottom: 0px; font-size: 1.2em;">Interests</h3>
         <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 0px;">
-            <li>Avatar Creation</li>
-            <li>AIGC (3D/Motion)</li>
+            <li>Avatar Creation & Editing</li>
+            <li>Motion & Embodied AI</li>
+            <li>XR & Generative AI</li>
             <li>Performance Capture</li>
             <li>Neural Rendering</li>
-            <li>Motion Capture</li>
+            <li>2D/3D Relighting</li>  
+            <li>Human Foundation Model</li>
         </ul>
     </div>
     <div style="flex: 1; min-width: 240px; max-width: 70%; padding: 20px; box-sizing: border-box;">
@@ -193,7 +196,7 @@
         <ul style="list-style-type: disc; padding-left: 0; margin-bottom: 0px;">
             <li>Conference Reviewer: CVPR, ICCV, NeurIPS, ICLR, ICML, AAAI, AAAI-AIA, SIGGRAPH ASIA, IEEE VR, 3DV, ACMMM, WACV, AISTATS, ...</li>
             <li>Journal Reviewer: IEEE TVCG, IEEE TIP, TMLR</li>
-            <li>Program Committee Member: AAAI 2026 Conference, AAAI 2026 AI Alignment Track</li>
+            <li>Program Committee Member: AAAI 2026, AAAI 2026 AI Alignment Track</li>
             <li>Workshop Organizer: <a href="https://s2025.conference-schedule.org/presentation/?id=twork_102&sess=sess278" style="color: hsl(0, 0%, 0%)";>SIGGRAPH 2025</a>  </li>
         </ul>
         <h3 style="margin-bottom: 0px; font-size: 1.2em;">Skills</h3>
@@ -205,9 +208,10 @@
 <!-- Call to Action Section -->
 <div style="padding: 0 30px; text-align: left; margin-bottom: 20px;">
     <h3 style="margin-bottom: 0px; font-size: 1.2em; font-weight: bold;">Let's Collaborate!</h3>
-    <li>Open to discussions from academia and industry on tech implementation and real-world impact.</li>
-    <li>Looking for full-time collaborators and research interns. Contact me via email if interested.</li>
-
+    <ul style="padding-left: 30px; margin-top: 8px; margin-bottom: 0;">
+        <li>Open to discussions from academia and industry on tech implementation and real-world impact.</li>
+        <li>Looking for full-time collaborators and research interns. Contact me via email if interested.</li>
+    </ul>
 </div>
 
 <!-- Publication Section -->
@@ -216,11 +220,11 @@
 </div>
 <nav class="staffshortcut">
     <a href="#" class="filter-btn" data-filter="all">All</a>
+    <a href="#" class="filter-btn" data-filter="animatable-avatar">Avatar</a>
+    <a href="#" class="filter-btn" data-filter="motion-capture">Motion</a>
     <a href="#" class="filter-btn" data-filter="generation">Generation</a>
-    <a href="#" class="filter-btn" data-filter="animatable-avatar">Animatable Avatar</a>
     <a href="#" class="filter-btn" data-filter="performance-capture">Performance Capture</a>
     <a href="#" class="filter-btn" data-filter="neural-rendering">Neural Rendering</a>
-    <a href="#" class="filter-btn" data-filter="motion-capture">Motion Capture</a>
 </nav>
 
 <br />
@@ -255,6 +259,63 @@
 
 <!-- 论文列表 -->
 <ul class="paper-list">
+
+    <li class="paper-item" data-category="generation animatable-avatar">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/intercoser.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>InterCoser: Interactive 3D Character Creation with Disentangled Fine-Grained Features</b>
+                        <br />
+                        <span style="font-size: 14px; color: #444;">Yi Wang*, Jian Ma*, <b>Zhuo Su†</b><span style="color: #888;">(Project Lead)</span>, Guidong Wang, Jingyu Yang, Yu-Kun Lai, <a href="https://cic.tju.edu.cn/faculty/likun/" style="color: #007bff;">Kun Li‡</a></span>
+                        <br />
+                        <span style="font-size: 14px; color: #444;"><i><b>AAAI 2026 Oral</b></i></span>
+                        <br />
+                        <p style="font-size: 14px; color: #444;">
+                            We present an interactive AIGC framework for disentangled 3D character creation, supporting sketch-based clothing transfer and 3D-proxy-guided part editing. Our method leverages geometry-aware 3D Gaussian reconstruction to ensure high-fidelity, editable avatars with fine-grained control.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="./Files/InterCoser.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="./Files/InterCoser.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+    <li class="paper-item" data-category="generation animatable-avatar">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/dreamcoser.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>DreamCoser: Controllable Layered 3D Character Generation and Editing</b>
+                        <br />
+                        <span style="font-size: 14px; color: #444;">Yi Wang*, Jian Ma*, <b>Zhuo Su†</b><span style="color: #888;">(Project Lead)</span>, Guidong Wang, Yu-Kun Lai, <a href="https://cic.tju.edu.cn/faculty/likun/" style="color: #007bff;">Kun Li‡</a></span>
+                        <br />
+                        <span style="font-size: 14px; color: #444;"><i><b>SIGGRAPH Asia 2025 Technical Communications</b></i></span>
+                        <br />
+                        <p style="font-size: 14px; color: #444;">
+                            We present DreamCoser, an AIGC framework for controllable, layered 3D character generation and sketch-based editing, enabling part-level customization from a single image.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="./Files/dreamcoser.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="./Files/dreamcoser.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
 
     <li class="paper-item" data-category="performance-capture neural-rendering">
         <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
@@ -488,6 +549,37 @@
             </tr>
         </table>
     </li>
+
+
+    <li class="paper-item" data-category="neural-rendering animatable-avatar">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/logavatar.png" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>LoGAvatar: Local Gaussian Splatting for human avatar modeling from monocular video</b>
+                        <br />
+                        <span style="font-size: 14px; color: #444;">Jinsong Zhang, Xiongzheng Li, Hailong Jia, Jin Li, <b>Zhuo Su</b>, Guidong Wang, <a href="https://cic.tju.edu.cn/faculty/likun/" style="color: #007bff;">Kun Li‡</a></span>
+                        <br />
+                        <span style="font-size: 14px; color: #444;"><i><b>CAD 2025</b></i></span>
+                        <br />
+                        <p style="font-size: 14px; color: #444;">
+                            We present LoGAvatar, a hierarchical 3D Gaussian Splatting framework that reconstructs editable avatars from monocular videos by anchoring local Gaussians to a human template and using a convolution-based texture atlas for real-time rendering and intuitive editing.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="./Files/logavatar.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://cic.tju.edu.cn/faculty/likun/projects/LoGAvatar/index.html" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+
     
     <li class="paper-item" data-category="generation neural-rendering">
         <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
@@ -783,6 +875,8 @@
                     </p>
                     <div style="margin-top: 10px;">
                         <a href="https://arxiv.org/pdf/2210.15134.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://arxiv.org/pdf/2210.15134.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                                  
                     </div>
                     <br />
                 </p>
