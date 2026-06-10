@@ -102,12 +102,12 @@
 <i>
 
 <p>
-    I am a Tech Lead and Researcher at ByteDance, working on Human-Centric AI. 
-    My research focuses on enabling machines to perceive, understand, generate and interact with human-centric worlds, bridging the physical and virtual worlds through human capture, avatar systems, motion intelligence, and immersive interaction.
-    My long-term goal is to develop machine intelligence grounded in human experiences, capable of understanding people, modeling human behaviors, and enabling natural interactions between humans, AI agents, robots and worlds.
-    
+    I am a Tech Lead and Researcher at ByteDance, working on Human-Centric AI.
+    My work centers on building AI systems for human motion capture, performance capture, avatar generation, and immersive interaction, with the goal of bridging the physical and virtual worlds. 
+    More broadly, I am interested in machine intelligence grounded in human experiences, capable of understanding people and modeling human behaviors, and in translating it into real-world interactive systems involving humans, AI agents, robots, and worlds.  
+    <!-- My long-term goal is to develop machine intelligence grounded in human experiences, capable of understanding people, modeling human behaviors, and enabling natural interactions between humans, AI agents, robots and worlds. -->
     Prior to joining ByteDance, I worked at Tencent as a Senior Researcher through the Special Recruitment Talents Program (技术大咖). 
-    Before entering the industry, I graduated from the Department of Automation at Tsinghua University, where I had the honor of being supervised by <a href="https://media.au.tsinghua.edu.cn/info/1009/1112.htm"style="color: #007bff;">Qionghai Dai</a> and
+    Before that, I graduated from Tsinghua University, where I was fortunate to be supervised by <a href="https://media.au.tsinghua.edu.cn/info/1009/1112.htm"style="color: #007bff;">Qionghai Dai</a> and
     <a href="http://luvision.net/" style="color: #007bff;">Lu Fang</a>, and collaborated closely with <a href="https://liuyebin.com/" style="color: #007bff;">Yebin Liu</a> and <a href="https://www.xu-lan.com/index.html" style="color: #007bff;">Lan Xu</a>.
     <!-- I am currently a Tech Lead and Researcher at ByteDance.   -->
     <!-- My work focuses on building AI-native systems for capturing, understanding, and generating human-centric scenes, enabling the digitalization of humans, objects, and events for immersive virtual experiences. -->
@@ -269,6 +269,64 @@
 
 <!-- 论文列表 -->
 <ul class="paper-list">
+
+
+    <li class="paper-item" data-category="motion-capture">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/fisherposer.png" alt="FisherPoser" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>FisherPoser: Human Motion Estimation from Sparse Observations with Hierarchical Region-Wise Fisher-Matrix Uncertainty Modeling</b>
+                        <br />
+                        <span style="font-size: 14px; color: #444;">Songpengcheng Xia, Qingyu Zhang, <b>Zhuo Su</b>, Jiarui Yang, Zengyuan Lai, Qi Wu, Ling Pei <span style="color: #888;"></span></span>
+                        <br />
+                        <span style="font-size: 14px; color: #444;"><i><b>CVPR 2026</b></i></span>
+                        <br />
+                        <p style="font-size: 14px; color: #444;">
+                            We propose FisherPoser, a probabilistic framework for full-body motion estimation from sparse VR observations. By modeling joint orientations as Matrix-Fisher distributions on SO(3) and employing a hierarchical region-wise decoder, our method explicitly resolves one-to-many ambiguity, achieving highly accurate and jitter-free tracking with well-calibrated uncertainty.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Xia_FisherPoser_Human_Motion_Estimation_from_Sparse_Observations_with_Hierarchical_Region-Wise_CVPR_2026_paper.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Xia_FisherPoser_Human_Motion_Estimation_from_Sparse_Observations_with_Hierarchical_Region-Wise_CVPR_2026_paper.pdf" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
+
+
+    <li class="paper-item" data-category="generation relighting">
+        <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 30%; text-align: center;">
+                    <a href="./"><img src="./Files/polar.jpg" alt="" style="width: 100%; height: auto;" /></a>
+                </td>
+                <td style="width: 70%; padding-left: 20px; vertical-align: top;">
+                    <p>
+                        <b>POLAR: A Portrait OLAT Dataset and Generative Framework for Illumination-Aware Face Modeling</b>
+                        <br />
+                        <span style="font-size: 14px; color: #444;">Zhuo Chen*, Chengqun Yang*， <b>Zhuo Su‡</b> <span style="color: #888;">(Corresponding Author)</span>, Zheng Lv, Jingnan Gao, Xiaoyuan Zhang, Xiaokang Yang, Yichao Yan‡</span>
+                        <br />
+                        <span style="font-size: 14px; color: #444;"><i><b>CVPR 2026 Oral</b></i></span>
+                        <br />
+                        <p style="font-size: 14px; color: #444;">
+                            We introduce POLAR, a large-scale, physically calibrated OLAT dataset with 200+ subjects captured under 156 lighting directions, multiple views, and diverse expressions. Based on this, we propose POLARNet, a flow-based model that predicts per-light OLAT responses from a single portrait, capturing fine-grained, direction-aware illumination while preserving identity.
+                        </p>
+                    </p>
+                    <div style="margin-top: 10px;">
+                        <a href="https://arxiv.org/pdf/2512.13192" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; margin-right: 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Paper</a>
+                        <a href="https://rex0191.github.io/POLAR/" style="border: 1px solid #007bff; color: #007bff; padding: 5px 15px; text-decoration: none; border-radius: 4px; font-size: 14px;">Project page</a>
+                    </div>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </li>
 
     <li class="paper-item" data-category="generation relighting">
         <table class="imgtable" style="margin-left: 10px; margin-right: 10px; width: 100%; table-layout: fixed;">
@@ -1122,7 +1180,7 @@
     <p style="margin-top: 0; margin-bottom: 8px; color: #666;"><i>Public patents include:</i></p>
     <ul>
         <li>
-            "Method and apparatus for pose estimation, and electronic device", Patent, US20250028385A1
+            "Method and apparatus for pose estimation, and electronic device", US20250028385A1
         </li>
     </ul>
 
@@ -1133,16 +1191,16 @@
     <p style="margin-top: 0; margin-bottom: 8px; color: #666;"><i>Public patents include:</i></p>
     <ul>
         <li>
-            “Dynamic three-dimensional reconstruction method, device, equipment, medium and system”, Patent, CN:201910110062:A
+            “Dynamic three-dimensional reconstruction method, device, equipment, medium and system”, CN:201910110062:A
         </li>
         <li>
-            “Texture real-time determination method, device and equipment for dynamic scene and medium”, Patent, CN:201910110044:A
+            “Texture real-time determination method, device and equipment for dynamic scene and medium”, CN:201910110044:A
         </li>
         <li>
-            “Dynamic human body three-dimensional reconstruction method, device, equipment and medium”, Patent, CN:202010838902:A
+            “Dynamic human body three-dimensional reconstruction method, device, equipment and medium”, CN:202010838902:A
         </li>
         <li>
-            “Dynamic human body three-dimensional model completion method and device, equipment and medium”, Patent, CN:202010838890:A
+            “Dynamic human body three-dimensional model completion method and device, equipment and medium”, CN:202010838890:A
         </li>
     </ul>
 
@@ -1153,13 +1211,13 @@
     <p style="margin-top: 0; margin-bottom: 8px; color: #666;"><i>Public patents include:</i></p>
     <ul>
         <li>
-            “Depth Camera-based three-dimensional renconstruction method and apparatus, device, and storage medium”, Patent, US201916977899A
+            “Depth Camera-based three-dimensional renconstruction method and apparatus, device, and storage medium”, US201916977899A
         </li>
         <li>
-            “Depth camera calibration method and device, electronic equipment and storage medium”, Patent, CN:201810179738:A
+            “Depth camera calibration method and device, electronic equipment and storage medium”, CN:201810179738:A
         </li>
         <li>
-            “A three-dimensional rebuilding method and device based on a depth camera, an apparatus and a storage medium”, Patent, CN:201810179264:A
+            “A three-dimensional rebuilding method and device based on a depth camera, an apparatus and a storage medium”, CN:201810179264:A
         </li>
     </ul>
 
